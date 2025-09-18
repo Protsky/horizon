@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JSON Search Engine</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background: #f0f2f5;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    input#search {
+      width: 100%;
+      padding: 12px;
+      font-size: 1.2rem;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+      transition: border-color 0.3s;
+      background: white;
+    }
+    input#search:focus {
+      border-color: #4a90e2;
+    }
+
+    #results {
+      margin-top: 2rem;
+    }
+
+    .result {
+      background: white;
+      padding: 15px;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    .result:hover {
+      background-color: #eaf2ff;
+    }
+
+    .source {
+      font-size: 0.85rem;
+      color: #777;
+      margin-top: 8px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>JSON Search Engine</h1>
+  <input type="text" id="search" placeholder="Start typing..." autofocus />
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

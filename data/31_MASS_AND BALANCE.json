@@ -1,0 +1,1386 @@
+[
+  {
+    "question": "Extract the forward and aft centre of gravity limit from the given diagram for a mass of 4300 lb.",
+    "feedback": "Forward CG limit 87.2 in., aft CG limit 94.6 in."
+  },
+  {
+    "question": "For the purpose of completing the Mass and Balance documentation, the Dry Operating Mass is defined as:",
+    "feedback": "The total mass of the aeroplane ready for a specific type of operation excluding all usable fuel and traffic load."
+  },
+  {
+    "question": "Given:\nAeroplane mass = 36 000 kg\nCentre of gravity (cg) is located at station 17 m\nWhat is the effect on cg location if you move 20 passengers (total mass = 1 600 kg) from station 16 to station 23?",
+    "feedback": "It moves aft by 0.31 m."
+  },
+  {
+    "question": "Given the following information, what is the underload/overload?\nAllowed Take-Off Mass: 4300 kgOperating Mass: 3296 kgTotal Fuel Mass: 650 kgMass of the crew and their baggage: 187 kgTraffic Load: 1014 kg",
+    "feedback": "Overload of 10 kg"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.11)\nThe aeroplane has a mass of 61 000 kg in the cruise. The range of safe CG positions, as determined  from the appropriate graph in the loading manual, is:",
+    "feedback": "forward limit 8.3% aft limit 26.3% MAC"
+  },
+  {
+    "question": "Given the following information, what is the underload/overload?\nMaximum Structural Take-Off Mass: 7620 kgPerformance-Limited Take-Off Mass: 7400 kgDry Operating Mass: 3780 kgTake-Off Fuel: 1120 kgMass of the crew and their baggage: 270 kgTraffic Load: 2620 kg",
+    "feedback": "Overload of 120 kg"
+  },
+  {
+    "question": "A loaded aircraft has its Centre of Gravity (CG) 35 inches aft of the datum, and its mass is 4500 lb. A last minute load of 334 lb is placed on board 20 inches forward of the datum.\nWhat is the new position of the CG?",
+    "feedback": "31.2 inches aft of the datum"
+  },
+  {
+    "question": "for this question use CAP 696 Section 1 - General Notes Page 5:\nA turbojet aircraft with 36 passenger seats performs a domestic flight carrying 28 rugby players of an average mass of 115 kg. Each of them has one checked baggage. What is the Traffic Load?",
+    "feedback": "3528 kg"
+  },
+  {
+    "question": "The maximum floor loading for a cargo compartment in an aircraft is given as 750 kg per square metre. A package with a mass of 600 kg. is to be loaded. Assuming the pallet base is entirely in contact with the floor, which of the following is the minimum size pallet that can be used ?",
+    "feedback": "40 cm by 200 cm"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.11)\nAt the maximum landing mass the range of safe CG positions, as determined from the appropriate graph in the loading manual, is:",
+    "feedback": "Forward limit 7.4% MAC aft limit 27.0% MAC"
+  },
+  {
+    "question": "A container has a base area of 1.44 m2. The container is loaded on two ground supports (of negligible mass), each having floor contact dimensions of 0.2 x 1.2 m.\nGiven that the maximum permissible floor load of the cargo compartment, which is 732 kg/m2, must be respected, what is the maximum mass that can be loaded in the container?",
+    "feedback": "351 kg"
+  },
+  {
+    "question": "Before departure for a flight, the load controller presents to you cargo documents for boxes containing spare parts. These boxes have a Total Mass of 4500 kg. If you accept all the boxes, given the following information, what will be the Underload/Overload?\nAllowed Take-Off Mass 76720 kgMaximum Zero Fuel Mass 62731 kgOperating Mass 58799 kgActual Zero Fuel Mass 55063 kgActual Traffic Load (without the boxes) 12563 kgTake-Off Fuel 16299 kg\nDisregard changes in fuel due to the increase in Total Mass. Consider no restrictions on structural limits and Allowed Landing Mass.",
+    "feedback": "An Underload of 858 kg"
+  },
+  {
+    "question": "During take-off you notice that, for a given elevator input,  the aeroplane rotates much more rapidly than expected.  This is an indication that :",
+    "feedback": "the centre of gravity may be towards the aft limit."
+  },
+  {
+    "question": "Assume that the mass of the beam in the diagram is negligible.\nWhat is the mass needed to be placed at the location specified in the diagram to maintain equilibrium of the beam?",
+    "feedback": "22 kg"
+  },
+  {
+    "question": "The take-off mass of an aeroplane is 141000 kg.  Total fuel on board is 63000 kg including 14000 kg reserve fuel and 1000 kg of unusable fuel.  The traffic load is 12800 kg.  The zero fuel mass is:",
+    "feedback": "79000 kg"
+  },
+  {
+    "question": "The Take-off Mass of an aeroplane is 66700 kg which includes a traffic load of 14200 kg and a usable fuel load of 10500 kg. If the standard mass for the crew is 545 kg the Dry Operating Mass is",
+    "feedback": "42000 kg"
+  },
+  {
+    "question": "Conversion of fuel volume to mass",
+    "feedback": "may be done by using standard fuel density values as specified in the Operations Manual, if the actual fuel density is not known."
+  },
+  {
+    "question": "A jet transport has the following structural limits:\n-Maximum Ramp Mass:        63 060 kg\n-Maximum Take Off Mass:    62 800 kg\n-Maximum Landing Mass:     54 900 kg\n-Maximum Zero Fuel Mass:   51 300 kg\nThe aeroplane's fuel is loaded accordance with the following requirements:\n-Taxi fuel:                                      400 kg\n-Trip fuel:                                      8400 kg\n-Contingency & final reserve fuel:    1800 kg\n-Alternate fuel:                              1100 kg\nIf the Dry Operating Mass is 34930 kg, determine the maximum traffic load that can be carried on the flight if departure and landing airfields are not performance limited.",
+    "feedback": "16 370 kg"
+  },
+  {
+    "question": "The floor loading of a cargo compartment is 732 kg/m2. Of the options listed, which is the smallest pallet size that is acceptable for loading a box of 806 kg?",
+    "feedback": "1.2 m x 1.2 m"
+  },
+  {
+    "question": "The Zero Fuel Mass and the Dry Operating Mass",
+    "feedback": "differ by the value of the traffic load mass."
+  },
+  {
+    "question": "Refer to CAP 696, MRJT1, figures 4.5 and 4.6:\n\nFor the medium range transport aeroplane, from the loading manual, determine the maximum total volume of fuel which can be loaded into the main wing tanks. (Fuel density value 0,78)",
+    "feedback": "11.348 litres"
+  },
+  {
+    "question": "The crew of a transport jet aeroplane prepares a flight using the following data:\nDry Operating Mass: 35058 kgMaximum Zero Fuel Mass: 52790 kgPerformance limited Take-off Mass: 61875 kgPerformance limited Landing Mass: 53871 kgTake-off fuel: 13358 kgTrip fuel: 8900 kg\nThe Traffic Load (TL) available for this flight is:",
+    "feedback": "13459 kg"
+  },
+  {
+    "question": "An aircraft's dry operating mass is 3000 kg.\nThe maximum take-off, landing, and zero-fuel mass are identical, at 5200 kg. Ramp fuel is 650 kg, the taxi fuel is 50 kg.\nThe payload available is :",
+    "feedback": "1 600 kg"
+  },
+  {
+    "question": "By adding to the basic empty mass the following fixed necessary equipment for a specific flight (catering, safety and rescue equipment, fly away kit, crew), we get:",
+    "feedback": "Dry operating mass"
+  },
+  {
+    "question": "The empty mass of an aeroplane, as given in the weighing schedule, is 61300 kg.  The operational items (including crew) is given as a mass of 2300 kg.  If the take-off mass is 132000 kg (including a useable fuel quantity of 43800 kg) the useful load is",
+    "feedback": "68400 kg"
+  },
+  {
+    "question": "According to the Aircraft Flight Manual, the Maximum Structural Mass of your aircraft is 3420 lb, which may be increased by 30 lb for taxiing. It is a hot day and the performance charts restrict the Maximum All Up Mass (MAUM) to 3280 lb. What is the value of the Regulated Take-off Mass (RTOM)?",
+    "feedback": "3280 lb"
+  },
+  {
+    "question": "You are flying in a twin-engine piston aeroplane with a Maximum Structural Landing Mass of 4700 kg on a very hot and humid summer day. Your Performance-Limited Landing Mass on this particular flight is equal to 4300 kg. Assuming that you did not burn the 30 kg of contingency fuel that you had loaded prior to departure, what is your Regulated Landing Mass?",
+    "feedback": "4300 kg"
+  },
+  {
+    "question": "Rush bags, late arrival bags, pilots' or cabin crew baggage will be loaded as ....",
+    "feedback": "bulk cargo"
+  },
+  {
+    "question": "Which statement regarding the relationship between traffic load and range is correct?",
+    "feedback": "The traffic load can be limited by the desired range"
+  },
+  {
+    "question": "(For this Question use Loading Manual SEP1)\nWith respect to a single-engine piston powered aeroplane, determine the zero fuel moment (lbs.In./100) in the following conditions:\nBasic Empty Mass: 2415 lbs.\nArm at Basic Empty Mass: 77,9 In.\nCargo Zone A: 350 lbs.\nBaggage Zone B: 35 lbs.\nPilot and front seat passenger : 300 lbs (total)",
+    "feedback": "2548,8"
+  },
+  {
+    "question": "The actual 'Take-off Mass' is equivalent to:",
+    "feedback": "Dry Operating Mass plus take-off fuel and the traffic load"
+  },
+  {
+    "question": "What is correct regarding methods for cargo loading?",
+    "feedback": "Oversized cargo is best loaded onto pallets"
+  },
+  {
+    "question": "Given the following information, calculate the Take-Off Mass CG in inches aft of the datum.\nBasic Empty Mass 2635 lbBasic Empty Mass Moment 204793.5 lbFront Seat Occupants Mass 90 lbFront Seat Occupants Arm 78 inAft Seat Occupants Mass 186 lbAft Seat Occupants Arm 117 inBlock Fuel 850 lbTaxi Fuel 230 lbFuel Arm 86 in",
+    "feedback": "81.25"
+  },
+  {
+    "question": "With the centre of gravity on the forward limit which of the following is to be expected?",
+    "feedback": "A decrease in range."
+  },
+  {
+    "question": "Given:\nTotal mass: 7500 kg\nCentre of gravity (cg) location station: 80.5 \nAft cg limit station: 79.5\nHow much cargo must be shifted from the aft cargo compartment at station 150 to the forward cargo compartment at station 30 in order to move the cg location to the aft limit?",
+    "feedback": "62.5 kg."
+  },
+  {
+    "question": "The formula for calculating the index and the index corrections for an MRJT aeroplane are shown above. Given the following information, determine the correct Dry Operating Index (DOI) for the flight when one additional cabin crew is positioned at the aft cabin door.\nDry Operating Mass (DOM): 35325 kgLcg (balance arm of the initial DOM): 658 in",
+    "feedback": "48.3"
+  },
+  {
+    "question": "At the flight preparation stage, the following parameters in particular are available for determining the mass of the aircraft:\n1- Dry operating mass\n2- Operating mass\nWhich statement is correct:",
+    "feedback": "The dry operating mass includes fixed equipment needed to carry out a specific flight."
+  },
+  {
+    "question": "An aeroplane is performance limited to a landing mass of 54230 kg.  The Dry Operating Mass is 35000 kg and the zero fuel mass is 52080 kg.  If the take-off mass is 64280 kg the useful load is",
+    "feedback": "29280 kg."
+  },
+  {
+    "question": "The planned take-off mass of a turbojet aeroplane is 190 000 kg, with its centre of gravity located at 29 % MAC (Mean Aerodynamic Cord). Shortly prior to engine start, the local staff informs the flight crew that 4 000 kg must be unloaded from cargo 4 (23,89m aft of the reference point). Given:\n\nDistance from reference point to leading edge:  14 m\nLength of MAC:                                  4,6 m\n\nAfter the handling operation, the new centre of gravity location in % MAC will be:",
+    "feedback": "25 %"
+  },
+  {
+    "question": "(For this question use Loading Manual MEP1 Figure 3.4)\nWith respect to a multi-engine piston powered aeroplane, determine the total moment (lbs.In) at landing in the following conditions:\nBasic empty mass: 3 210 lbs.\nOne pilot: 160 lbs.\nFront seat passenger : 200 lbs.\nCentre seat passengers: 290 lbs. (total)\nOne passenger rear seat: 110 lbs.\nBaggage in zone 1: 100 lbs.\nBaggage in zone 4: 50 lbs.\nBlock fuel: 100 US Gal.\nTrip fuel: 55 US Gal.\nFuel for start up and taxi (included in block fuel):  3 US Gal.\nFuel density: 6 lbs./US Gal.\nTotal moment at take-off: 432226 lbs.In",
+    "feedback": "401 338"
+  },
+  {
+    "question": "Refer to the graph. For the following boom to be in balance:",
+    "feedback": "B = Fa x A / Fb"
+  },
+  {
+    "question": "Regarding the securing of traffic load, which of the following answers is correct?",
+    "feedback": "During flight, containers and pallets are permitted to remain on rollers within tracks, provided they are secured by latches"
+  },
+  {
+    "question": "The following data is extracted from an aeroplane's loading manifest:\nPerformance limited take-off mass        93500 kg\nExpected landing mass at destination        81700 kg\nMaximum certificated landing mass        86300 kg\nFuel on board                    16500 kg\nDuring the flight a diversion is made to an en-route alternate which is not 'performance limited' for landing.  Fuel remaining at landing is 10300 kg.  The landing mass",
+    "feedback": "is 87300 kg and excess structural stress could result"
+  },
+  {
+    "question": "The Dry Operating Mass of an aeroplane includes :",
+    "feedback": "Crew and crew baggage, catering, removable passenger service equipment, potable water and lavatory chemicals."
+  },
+  {
+    "question": "When considering the effects of increased mass on an aeroplane, which of the following is true?",
+    "feedback": "Stalling speeds will be higher."
+  },
+  {
+    "question": "(For this Question use Loading Manual MEP1)  With respect to multi-engine piston powered aeroplane, determine the ramp mass (lbs) in the following conditions: Basic empty mass: 3 210 lbs Basic arm: 88.5 Inches One pilot: 160 lbs Front seat passenger : 200 lbs Centre seat passengers: 290 lbs One passenger rear seat: 110 lbs Baggage in zone 1: 100 lbs Baggage in zone 4: 50 lbs Block fuel: 100 US Gal. Trip fuel: 55 US Gal. Fuel for start up and taxi (included in block fuel): 3 US Gal.  Fuel density: 6 lbs/US Gal.",
+    "feedback": "4 720"
+  },
+  {
+    "question": "Which of the following loading methods is recommended for the transport of unconventional cargo?",
+    "feedback": "Large and irregularly shaped cargo should be loaded as palletised cargo"
+  },
+  {
+    "question": "Given:\nBasic Empty Mass: 5300 kg\nDry Operating Mass: 5500 kg\nZero Fuel Mass: 5980 kg\nTake-off Mass: 7980 kg\n\nWhat is the useful load?",
+    "feedback": "2480 kg"
+  },
+  {
+    "question": "During dispatch calculations, you want to calculate the maximum possible Traffic Load and carry as minimum 13800 kg of Block Fuel.\nDetermine the Allowed Traffic Load for your flight, given:\nAllowed Take-Off Mass 71240 kgMaximum Zero Fuel Mass 56380 kgDry Operating Mass 40561 kgActual Traffic Load 14367 kgTaxi Fuel 274 kg\nAssume no restrictions on the Landing Mass.",
+    "feedback": "15819 kg"
+  },
+  {
+    "question": "A flight log excerpt gives the following planning data for a commercial air transport flight. What is the Maximum Allowed Traffic Load for this flight?\nMaximum Take-Off Mass 62800 kgMaximum Landing Mass 54900 kgMaximum Zero Fuel Mass 50300 kgPerformance-limited Take-Off Mass at departure 59600 kgPerformance-limited Landing Mass at destination 54500 kgDry Operating Mass 34750 kgBlock Fuel 10810 kgTaxi Fuel 150 kgTrip Fuel 5800 kgContingency Fuel 290 kgAlternate Fuel 850 kgFinal Reserve Fuel 1080 kg",
+    "feedback": "14190 kg"
+  },
+  {
+    "question": "The maximum taxi (ramp) mass is governed by :",
+    "feedback": "structural considerations."
+  },
+  {
+    "question": "The following data applies to a planned flight.\nDry Operating Mass       34900 kg\nPerformance limited Take-Off Mass      66300 kg\nPerformance limited Landing Mass      55200 kg\nMaximum Zero Fuel Mass        53070 kg\nFuel required at ramp:-\nTaxy fuel             400 kg\ntrip fuel        8600 kg\ncontingency fuel        430 kg\nalternate fuel             970 kg\nholding fuel             900 kg\nTraffic load                  16600 kg\nFuel costs at the departure airfield are such that it is decided to load the maximum fuel quantity possible. The total fuel which may be safely loaded prior to departure is :",
+    "feedback": "12700 kg"
+  },
+  {
+    "question": "The difference between TOM and block fuel is equal to ......",
+    "feedback": "DOM + traffic load"
+  },
+  {
+    "question": "On an aeroplane with a seating capacity of more than 30, it is decided to use standard mass values for computing the total mass of passengers.  If the flight is not a holiday charter, the mass value which may be used for an adult is",
+    "feedback": "84 kg"
+  },
+  {
+    "question": "For a given configuration, the stall speed of an aeroplane will be highest when loaded:",
+    "feedback": "to the maximum allowable mass with the most forward CG"
+  },
+  {
+    "question": "Refer to the M&B Appendix, figures MB-012, MB-015\n\nThe planned take-off mass of an aeroplane is 180 000 kg, with its centre of gravity located at 31 % MAC (Mean Aerodynamic Cord). Shortly prior to engine start, the local staff informs the crew that an additional load of 4 000 kg must be loaded in cargo 1. After loading this cargo, the new centre of gravity location will be:",
+    "feedback": "25 %"
+  },
+  {
+    "question": "Refer to Mass & Balance Appendix, figures MB-012, MB-014\n\nA turbojet aeroplane has a planned take-off mass of 190 000 kg; the cargo load is distributed as follows: cargo 1: 3 000 kg; cargo 4: 7 000 kg. Once the cargo loading is completed, the crew is informed that the centre of gravity at take-off is located at 38 % MAC (Mean Aerodynamic Cord) which is beyond the limits. The captain decides then to redistribute part of the cargo load between cargo 1 and cargo 4 in order to obtain a new centre of gravity location at 31 % MAC. Following the transfer operation, the new load distribution is:",
+    "feedback": "cargo 1: 6 000 kg; cargo 4: 4 000 kg"
+  },
+  {
+    "question": "At maximum certificated take-off mass an aeroplane departs from an airfield which is not limiting for either take-off or landing masses. During initial climb the number one engine suffers a contained disintegration. An emergency is declared and the aeroplane returns to departure airfield for an immediate landing. The most likely result of this action will be",
+    "feedback": "a high threshold speed and possible undercarriage or other structural failure."
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1, Figure 4.14) The medium range twin jet transport is scheduled to operate from a departure airfield where conditions limit the take-off mass to 65050 kg. The destination airfield has a performance limited landing mass of 54500 kg. The Dry Operating Mass is 34900 kg. Loading data is as follows -  Taxi fuel 350 kg Trip fuel 9250 kg Contingency and final reserve fuel 1100 kg Alternate fuel 1000 kg Traffic load 18600 kg Check the load and ensure that the flight may be operated without exceeding any of the aeroplane limits. Choose, from those given below, the most appropriate answer.",
+    "feedback": "The flight is 'zero fuel mass' limited and the traffic load must be reduced to 16400 kg."
+  },
+  {
+    "question": "Given an aeroplane with:\nMaximum Structural Landing Mass: 68000 kg\nMaximum Zero Fuel Mass:              70200 kg\nMaximum Structural Take-off Mass: 78200 kg\nDry Operating Mass :  48000 kg\nScheduled trip fuel is 7000 kg and the reserve fuel is 2800 kg,\n\nAssuming performance limitations are not restricting, the maximum permitted take-off mass and maximum traffic load are respectively:",
+    "feedback": "75000 kg and 17200 kg"
+  },
+  {
+    "question": "A load placed aft of the datum ......",
+    "feedback": "has a positive arm and therefore generates a positive moment"
+  },
+  {
+    "question": "The Dry Operating Mass of an aircraft is 2 000 kg. The maximum take-off mass, landing and zero fuel mass are identical at 3500 kg. The block fuel mass is 550kg, and the taxi fuel mass is 50 kg. The available mass of payload is:",
+    "feedback": "1 000 kg"
+  },
+  {
+    "question": "The stalling speed of an aeroplane will be highest when it is loaded with a:",
+    "feedback": "high gross mass and forward centre of gravity."
+  },
+  {
+    "question": "The maximum running load of the aft cargo hold of an aeroplane is 1650 kg/m. Assume the standard mass of the proposed pallet is 120 kg and 2299 kg of baggage have to be loaded in the aft cargo hold. Which of the following pallets (length x width) should be used in order to comply with the running load limit and to optimise best the space in the cargo hold?",
+    "feedback": "1.48 x 1.46 m"
+  },
+  {
+    "question": "In determining the Dry Operating Mass of an aeroplane it is common practice to use 'standard mass' values for crew.  These values are",
+    "feedback": "flight crew 85 kg., cabin crew 75 kg. each. These are inclusive of a hand baggage allowance."
+  },
+  {
+    "question": "Just before closing the doors of the aircraft, you are asked if it is possible to accept a group of passengers re-booked from another flight. Knowing that your departure is take-off limited, determine the underload so that you can decide how many passengers to accept:\nAllowed Take-Off Mass: 24220 kgOperating Mass: 14792 kgDry Operating Mass: 8693 kgActual Traffic Load: 2563 kgTake-Off Fuel: 6099 kg(disregard changes in fuel due to the increase in total mass)",
+    "feedback": "6865 kg"
+  },
+  {
+    "question": "The dry operating index is:",
+    "feedback": "The centre of gravity of the dry operating mass"
+  },
+  {
+    "question": "The empty mass of an aeroplane or helicopter is recorded in",
+    "feedback": "the weighing schedule and is amended to take account of changes due to modifications of the aeroplane."
+  },
+  {
+    "question": "Length of the mean aerodynamic chord = 1 m\nMoment arm of the forward cargo: -0,50 m\nMoment arm of the aft cargo: + 2,50 m\nThe aircraft  mass is 2 200 kg and its centre of gravity is at 25% MAC\nTo move the centre of gravity to 40%, which mass has to be transferred from the forward to the aft cargo hold?",
+    "feedback": "110 kg"
+  },
+  {
+    "question": "for this question use CAP 696, Figure 3.4\nUsing the following data, determine the Ramp Mass CG position.\nCrew: 1 pilotPassengers: 2 at the centre seatsFuel loaded: 500 lbsAssume a Standard Mass of 170 lbs per person",
+    "feedback": "91.4 in"
+  },
+  {
+    "question": "A load placed forward of the datum ....",
+    "feedback": "has a negative arm and therefore generates a negative moment"
+  },
+  {
+    "question": "The total mass of an aeroplane is 145000 kg and the centre of gravity limits are between 4.7 m and 6.9 m aft of the datum. The loaded centre of gravity position is 4.4 m aft. How much mass must be transferred from the front to the rear hold in order to bring the out of limit centre of gravity position to the foremost limit:",
+    "feedback": "7 500 kg"
+  },
+  {
+    "question": "Regarding the handling of the cargo, which statement is correct?",
+    "feedback": "Containers provide better protection than pallets against damage to the cargo items"
+  },
+  {
+    "question": "Calculate the maximum mass that can be loaded on a pallet sized 1.2 m x 1.2 m, to comply with a maximum running load of 1915 kg/m:",
+    "feedback": "2298 kg"
+  },
+  {
+    "question": "When establishing the mass breakdown of an aeroplane, the empty mass is defined as the sum of the:",
+    "feedback": "standard empty mass plus specific equipment mass plus trapped fluids plus unusable fuel mass"
+  },
+  {
+    "question": "The mass of an aeroplane is 1950 kg. If 450 kg is added to a cargo hold 1.75 metres from the loaded centre of gravity (cg). The loaded cg will move:",
+    "feedback": "33 cm."
+  },
+  {
+    "question": "The maximum certificated take-off mass is :",
+    "feedback": "a structural limit which may not be exceeded for any take-off"
+  },
+  {
+    "question": "A cubic container has a length of 0.9 m. The maximum mass that can be loaded in this container without exceeding the maximum permissible floor load of 240 kg/m2 is ......",
+    "feedback": "194.40 kg"
+  },
+  {
+    "question": "During the pre-flight, the pilot assumed that the only passenger weighing 170 lb would sit in the front-row seat (located 85 inches aft of datum). The calculations gave a Take-Off Mass of 4100 lb and a take-off CG located at 94 inches aft of datum.\nWhen the passenger arrives, he/she sits in the rear seat, located 158 inches aft of datum. The CG limits are from 86 inches to 95 inches aft of datum. Determine if the new CG is within limits.",
+    "feedback": "No, it is out of the rear limit"
+  },
+  {
+    "question": "The maximum quantity of fuel that can be loaded into an aircraft's tanks is given as 400 US Gallons. If the fuel density (specific gravity) is given as 0.79, the mass of fuel which may be loaded is:",
+    "feedback": "1196 kg"
+  },
+  {
+    "question": "A pilot has finished the pre-planning. Shortly before departure an additional container with a mass of 3500 kg of traffic load is accepted. The pilot forgets to calculate the new performance values of the aircraft. Take-off and climb is accomplished without any problems. How will the performance of the aircraft due to the additional mass be affected?",
+    "feedback": "Rate of climb and range will be decreased"
+  },
+  {
+    "question": "With reference to mass and balance calculations (on an aeroplane) a datum point is used. This datum point is :",
+    "feedback": "a fixed point from which all balance arms are measured. It may be located anywhere on the aeroplane's longitudinal axis or on the extensions to that axis."
+  },
+  {
+    "question": "Assuming a baggage compartment with a structural limitation of 32 lb/sq ft, a mass of 200 kg has to be distributed over an area of ......",
+    "feedback": "1.28 m2"
+  },
+  {
+    "question": "Given are:\n\n- Maximum structural take-off mass: 72 000 kg\n- Maximum structural landing mass: 56 000 kg\n- Actual zero fuel mass: 48 000 kg\n- Taxi fuel: 800 kg\n- Trip fuel: 18 000 kg\n- Contingency fuel: 900 kg\n- Alternate fuel: 700 kg\n- Final reserve fuel: 2 000 kg\nDetermine the actual take-off mass:",
+    "feedback": "69 600 kg"
+  },
+  {
+    "question": "According to the Aircraft Flight Manual, the Maximum Structural Mass of your aircraft is 3200 lb, which may be increased by 25 lb for taxiing. It is a hot day and the performance charts restrict the Maximum All Up Mass (MAUM) to 3100 lb. What is the value of the Regulated Take-off Mass (RTOM)?",
+    "feedback": "3100 lb"
+  },
+  {
+    "question": "For this question use MRJT Figure 4.9\nFor the forward cargo compartment (Cargo Hold 1), area between balance arms (BA) 286 in and 343 in, determine the (1) maximum running load, (2) maximum distribution load intensity and (3) the maximum load:",
+    "feedback": "(1) 8.47 kg/in, (2) 68 kg/ft2, (3) 483 kg"
+  },
+  {
+    "question": "When an aeroplane is stationary on the ground, its total weight will act vertically",
+    "feedback": "through its centre of gravity."
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.11 ff.)\nThe following data relates to a planned flight of an aeroplane -\nDry Operational mass      60520 kg\nPerformance limited take-off mass  92750 kg\nPerformance limited landing mass  72250 kg\nMaximum Zero Fuel mass       67530 kg\nFuel on board at take-off -\nTrip fuel            12500 kg\nContingency and final reserve fuel       2300 kg\nAlternate fuel             1700 kg\nUsing this data, as appropriate, calculate the maximum traffic load that can be carried.",
+    "feedback": "7010 kg"
+  },
+  {
+    "question": "The crew of a transport aeroplane prepares a flight using the following data:\n- Dry operating mass: 90 000 kg\n- Block fuel: 30 000 kg\n- Taxi fuel: 800 kg\n- Maximum take-off mass: 145 000 kg\nThe traffic load available for this flight is:",
+    "feedback": "25 800 kg"
+  },
+  {
+    "question": "Which of the following is unlikely to have any effect on the position of the centre of gravity on an aeroplane in flight ?",
+    "feedback": "Changing the tailplane (horizontal stabiliser) incidence angle."
+  },
+  {
+    "question": "The determination of the centre of gravity in relation to the mean aerodynamic chord:",
+    "feedback": "consists of defining the centre of gravity longitudinally in relation to the length of the mean aerodynamic chord and the leading edge"
+  },
+  {
+    "question": "An aeroplane's weighing schedule indicates that the empty mass is 57320 kg.  The nominal Dry Operating Mass is 60120 kg and the Maximum Zero Fuel Mass is given as 72100 kg.  Which of the following is a correct statement in relation to this aeroplane?",
+    "feedback": "operational items have a mass of 2800 kg and the maximum traffic load for this aeroplane is 11980 kg."
+  },
+  {
+    "question": "An aeroplane has a Basic Empty Mass of 1000 kg, located at station 92The pilot's mass is 80 kg, located at station 100The fuel mass is 120 kg, located at station 130\nThe length of the MAC is 60 inches, 0 % MAC is at station 80.\nWhat is the centre of gravity location of the loaded aeroplane in % MAC?",
+    "feedback": "27.2 %"
+  },
+  {
+    "question": "(For this Question use Loading Manual MEP1)\nWith respect to multi-engine piston powered aeroplane, determine the block fuel moment (lbs.In.) in the following conditions:\nBasic empty mass: 3 210 lbs.\nBasic arm 88.5 Inch\nOne pilot: 160 lbs.\nFront seat passenger : 200 lbs.\nCentre seat passengers: 290 lbs. (total)\nOne passenger rear seat: 110 lbs.\nBaggage in zone 1: 100 lbs.\nBaggage in zone 4: 50 lbs.\nBlock fuel: 100 US Gal.\nTrip fuel: 55 US Gal.\nFuel for start up and taxi (included in block fuel):  3 US Gal.\nFuel density: 6 lbs./US Gal.",
+    "feedback": "56 160"
+  },
+  {
+    "question": "Longitudinal CG location is normally expressed:",
+    "feedback": "as a percentage of the MAC from its leading edge"
+  },
+  {
+    "question": "Given: Total mass 2900 kg Centre of gravity (cg) location station: 115.0 Aft cg limit station: 116.0 The maximum mass that can be added at station 130.0 is:",
+    "feedback": "207 kg."
+  },
+  {
+    "question": "In cruise flight, a centre of gravity moving aft will:",
+    "feedback": "decrease longitudinal static stability"
+  },
+  {
+    "question": "What determines the longitudinal stability of an aeroplane ?",
+    "feedback": "The location of the centre of gravity with respect to the  neutral point."
+  },
+  {
+    "question": "The structural limitation of a baggage compartment is 50 lb/ft2. A load has a mass of 320 kg and has to be distributed over an area of at least:",
+    "feedback": "1.31 m2"
+  },
+  {
+    "question": "You are performing a domestic commercial flight, with an aircraft which has a capacity of 2 flight crew members and 10 passengers. As part of your pre-flight calculations, you need to calculate the traffic load (according to CAP 696, figure 6, General Notes). Given the following information, calculate the Traffic Load:\nFlight crew: 2Female pax: 3Male pax: 2Baggage: 6 pieces (total mass 64 kg)Hand baggage: 3 pieces\nstandard mass for flight crew member: 85 kg",
+    "feedback": "469 kg"
+  },
+  {
+    "question": "The centre of gravity of an aeroplane is at 25% of the Mean Aerodynamic Chord. This means that the centre of gravity of the aeroplane is situated at 25% of the length of:",
+    "feedback": "the mean aerodynamic chord in relation to the leading edge"
+  },
+  {
+    "question": "The maximum quantity of fuel that can be loaded into an aircraft's tanks is given as 1120 litres. If the fuel density (specific gravity) is given as 0.79, the mass of fuel which may be loaded is:",
+    "feedback": "885 kg"
+  },
+  {
+    "question": "The empty mass of an aeroplane is given as 44800 kg.  Operational items (including crew standard mass of 1060 kg) are 2300 kg.  If the maximum zero fuel mass is given as 65500 kg, the maximum traffic load which could be carried is:",
+    "feedback": "18400 kg"
+  },
+  {
+    "question": "Without the crew, the weight and the CG-position of the aircraft are 7 000 kg and 4,70m.\n\n - the mass of the pilot is 90 kg\n - the mass of the copilot is 75 kg\n - the mass of the flight engineer is 90 kg\n\nWith this crew on board, the CG-position of the aircraft will be:",
+    "feedback": "4,615 m"
+  },
+  {
+    "question": "Based on actual conditions, an aeroplane has the following performance take-off mass limitations:\n\nFlaps :         0°            10°          15°\nRunway:    4100        4400         4600\nClimb:       4700        4500         4200\n\nMasses are in kg\nStructural limits: take-off/landing/zero fuel: 4 300 kg\n\nThe maximum take-off mass is :",
+    "feedback": "4 300 kg"
+  },
+  {
+    "question": "Given are the following information at take-off\n___________________________________________________________________\nSTATION                        MASS (kg)     ARM (cm)         MOMENT (kgcm)\n___________________________________________________________________\nBasic Empty Condition       12045                 +30                +361350\nCrew                                     145                -160                   -23200\nFreight 1                              5455               +200              +1091000 \nFreight 2                                410                  -40                  -16400\nFuel                                     6045                   -8                  - 48360\nOil                                         124                 +40                   +4960\nGiven that the flight time is 2 hours and the estimated fuel flow will be 1050 litres per hour and the average oil consumption will be 2.25 litres per hour. The specific density of fuel is 0.79 and the specific density of oil is 0.96.\nCalculate the landing centre of gravity",
+    "feedback": "61.28 cm aft of datum."
+  },
+  {
+    "question": "Moment (balance) arms are measured from a specific point to the body station at which the mass is located.  That point is known as",
+    "feedback": "the datum."
+  },
+  {
+    "question": "Take-off mass minus trip fuel mass results in the:",
+    "feedback": "Landing mass"
+  },
+  {
+    "question": "Which of the listed containers is acceptable for loading in a cargo compartment with a maximum permissible running load of 630 kg/m?\nContainer W (base dimensions 1.1 m x 1.1 m) loaded with 700 kgContainer X (base dimensions 1.1 m x 1.1 m) loaded with 760 kgContainer Y (base dimensions 1.2 m x 1.2 m) loaded with 700 kgContainer Z (base dimensions 1.2 m x 1.2 m) loaded with 760 kg",
+    "feedback": "Container Y"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.9)\nReferring to the loading manual for the transport aeroplane, the maximum running load for the aft section of the forward lower deck cargo compartment is:",
+    "feedback": "13.12 kg per inch."
+  },
+  {
+    "question": "Palletised cargo ......",
+    "feedback": "consists of multiple cargo boxes on pallets stored in the cargo holds"
+  },
+  {
+    "question": "Comparing a forward CG position with an aft one, the forward CG position will cause a:",
+    "feedback": "decrease in range"
+  },
+  {
+    "question": "Given the following data for a planned flight, what is the actual Zero Fuel Mass?\nOperating Mass: 45430 kgActual Traffic Load: 14730 kgUseful Load (Traffic Load + Take-off Fuel): 25280 kg",
+    "feedback": "49610 kg"
+  },
+  {
+    "question": "Considering the methods of loading cargo, which of the following answers is correct?",
+    "feedback": "Containers lock directly into the aircraft's restraint system and have their own manifest"
+  },
+  {
+    "question": "In order to provide an adequate \"buffet boundary\" at the commencement of the cruise a speed of 1.3Vs is used.  At a mass of 120000 kg this is a CAS of 180 knots.  If the mass of the aeroplane is increased to 135000 kg the value of 1.3Vs will be",
+    "feedback": "increased to 191 knots, drag will increase and air distance per kg of fuel will decrease."
+  },
+  {
+    "question": "An aircraft has its datum on the nose. The front seats are 65 inches aft of the datum and the passenger seats are 105 inches aft. The separate baggage compartment is 145 inches aft. The aft CG limit is 147 inches aft. The current mass is 2750 lb. The 3 passengers want to sit together in the rear seats so the front seat is empty. The baggage compartment is full. However, the pilot is very light and the CG is 3 inches outside the aft limit. Ignoring maximum mass limits, how much ballast must be put in the front seat to bring the CG to the aft limit?",
+    "feedback": "101 lb"
+  },
+  {
+    "question": "The centre of gravity of an aircraft is that point through which the total mass of the aircraft is said to act. The weight acts in a direction",
+    "feedback": "parallel to the gravity vector."
+  },
+  {
+    "question": "Calculate the minimum required floor contact area for a load of 0.126 metric tons, in order to avoid exceeding the cargo compartment's maximum permissible floor load of 70 kg/m2:",
+    "feedback": "1.80 m2"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.9)\nFrom the Loading Manual for the transport aeroplane, the maximum load that can be carried in that section of the aft cargo compartment which has a balance arm centroid at :",
+    "feedback": "835.5 inches is 3062 kg."
+  },
+  {
+    "question": "The centre of gravity location of the aeroplane is normally computed along the:",
+    "feedback": "longitudinal axis."
+  },
+  {
+    "question": "Which equation is correct in order to calculate the centre of gravity?\nThe sum of the:",
+    "feedback": "Moments divided by the sum of the masses"
+  },
+  {
+    "question": "In calculations with respect to the position of the centre of gravity a reference is made to a datum. The datum is",
+    "feedback": "a reference plane which is chosen by the aeroplane manufacturer. Its position is given in the aeroplane Flight or Loading Manual."
+  },
+  {
+    "question": "The actual Take-off Mass is equivalent to:",
+    "feedback": "Dry Operating Mass plus take-off fuel and the Traffic Load"
+  },
+  {
+    "question": "Using the loading manifest, calculate the basic empty mass (BEM):",
+    "feedback": "3210 lb"
+  },
+  {
+    "question": "The datum is a reference from which all moment (balance) arms are measured.  Its precise position is given in the control and loading manual and it is located",
+    "feedback": "at a convenient point which may not physically be on the aeroplane."
+  },
+  {
+    "question": "The mass and balance information gives : Basic mass : 1 200 kg ; Basic balance arm : 3.00 m  Under these conditions the Basic centre of gravity is at 25% of the mean aerodynamic chord (MAC). The length of MAC is 2m.  In the mass and balance section of the flight manual the following information is given : Position Arm front seats : 2.5 m rear seats : 3.5 m rear hold : 4.5 m fuel tanks : 3.0 m The pilot and one passenger embark; each weighs 80 kg. Fuel tanks contain 140 litres of petrol with a density of 0.714. The rear seats are not occupied.Taxi fuel is negligable. The position of the centre of gravity at take-off (as % MAC) is :",
+    "feedback": "22 %"
+  },
+  {
+    "question": "Given: Dry operating mass = 38 000 kg maximum structural take-off mass = 72 000 kg maximum landing mass = 65 000 kg maximum zero fuel mass = 61 000 kg Fuel burn = 8 000 kg Take-off Fuel = 10 300 kg  The maximum allowed take-off mass and payload are respectively :",
+    "feedback": "71 300 kg and 23 000 kg"
+  },
+  {
+    "question": "A container has a floor contact area of 1.44 m2. Given that the maximum permissible floor load of the cargo compartment, which is 732 kg/m2, must be respected, what is the maximum mass that can be loaded in the container?",
+    "feedback": "1054 kg"
+  },
+  {
+    "question": "To calculate a usable take-off mass, the factors to be taken into account include:",
+    "feedback": "Maximum landing mass augmented by the fuel burn."
+  },
+  {
+    "question": "Assuming gross mass, altitude and airspeed remain unchanged, movement of the centre of gravity from the forward to the aft limit will cause",
+    "feedback": "increased cruise range."
+  },
+  {
+    "question": "Refer to Mass & Balance Appendix, figure MB-008\n\nFrom the data contained in the appendix, the maximum allowable take-off mass and traffic load is respectively :",
+    "feedback": "61600 kg and 12150 kg"
+  },
+  {
+    "question": "The operating mass of an aeroplane is:",
+    "feedback": "dry operating mass plus the take-off fuel mass"
+  },
+  {
+    "question": "Given the following information, what is the underload/overload?\nMaximum Structural Take-Off Mass: 6400 kgPerformance-Limited Take-Off Mass: 6400 kgPerformance-Limited Landing Mass: 5430 kgOperating Mass: 4480Take-Off Fuel: 1440 kgTrip Fuel: 1090 kgMass of the crew and their baggage: 235 kgTraffic Load: 1870 kg",
+    "feedback": "Underload of 50 kg"
+  },
+  {
+    "question": "A revenue flight is to be made by a jet transport. The following are the aeroplane's structural limits:\n-Maximum Ramp Mass:         69 900 kg\n-Maximum Take Off Mass:     69 300 kg\n-Maximum Landing Mass:      58 900 kg\n-Maximum Zero Fuel Mass:    52 740 kg\nTake Off and Landing mass are not performance limited.\nDry Operating Mass:                  34 900 kg\nTrip Fuel:                                    11 800 kg\nTaxi Fuel:                                       500 kg\nContingency & final reserve fuel:    1 600 kg\nAlternate Fuel:                             1 900 kg       \nThe maximum traffic load that can be carried is:",
+    "feedback": "17 840 kg"
+  },
+  {
+    "question": "A revenue flight is to be made by a jet transport. The following are the aeroplane's structural limits:\n-Maximum Ramp Mass:         69 900 kg\n-Maximum Take Off Mass:     69 300 kg\n-Maximum Landing Mass:      58 900 kg\n-Maximum Zero Fuel Mass:    52 740 kg\nTake Off and Landing mass are not performance limited.\nDry Operating Mass:                  34 930 kg\nTrip Fuel:                                    11 500 kg\nTaxi Fuel:                                       250 kg\nContingency & final reserve fuel:    1 450 kg\nAlternate Fuel:                             1 350 kg       \nThe maximum traffic load that can be carried is:",
+    "feedback": "17 810 kg"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.11 ff.)\nAeroplane Dry Operating mass         85000 kg\nPerformance limited take-off mass   127000 kg\nPerformance limited landing mass    98500 kg\nMaximum zero fuel mass                89800 kg\nFuel requirements for flight -\nTrip fuel        29300 kg\nContingency and final reserve fuel      3600 kg\nAlternate fuel       2800 kg.\nThe maximum traffic load that can be carried on this flight is:",
+    "feedback": "4800 kg"
+  },
+  {
+    "question": "A box weighing 105 kg is loaded into the cargo compartment. Calculate the smallest required floor contact area of this box to avoid exceeding the maximum floor load of 600 kg/m2:",
+    "feedback": "0.175 m2"
+  },
+  {
+    "question": "Using the information in the load and trim sheet of Medium-Range Jet Commercial Air Transport aeroplane, complete the appropriate sections:\nWhat is the Allowed Traffic Load?",
+    "feedback": "16400 kg"
+  },
+  {
+    "question": "The Maximum Zero Fuel Mass is:",
+    "feedback": "a structural limit listed in the Flight Manual as a fixed value"
+  },
+  {
+    "question": "When the centre of gravity is at the forward limit, an aeroplane will be :",
+    "feedback": "extremely stable and will require excessive elevator control to change pitch."
+  },
+  {
+    "question": "A turbojet aeroplane is designed with swept-back wings. It is fitted with a central fuel tank and, on each wing, an inner and outer fuel tank. A flight is operated with full fuel in the tanks. At the top of descent (TOD), all the fuel in the central tank is consumed. The TOD CG position compared to that of the Top of Climb will be ......",
+    "feedback": "aft"
+  },
+  {
+    "question": "The dispatcher has informed you that the Actual Traffic Load for your flight is 1459 kg. Given the following conditions, what is the Maximum Block Fuel you can carry without exceeding the Allowed Take-Off Mass?\nDry Operating Mass 4737 kgMaximum Zero Fuel Mass 6428 kgAllowed Take-Off Mass 8100 kgTaxi Fuel 35 kg\nAssume no restrictions on the Landing Mass.",
+    "feedback": "1939 kg"
+  },
+  {
+    "question": "Pallets with a tare weight of 160 kg are loaded onto two ground supports. The implication of this is that ....",
+    "feedback": "the total weight of the loaded pallets will be increased by 160 kg"
+  },
+  {
+    "question": "Refer to the graph. For the following see-saw to be in balance:",
+    "feedback": "Fc = Fa / 3"
+  },
+  {
+    "question": "An aeroplane must be re-weighed at certain intervals.  Where an operator uses 'fleet masses' and provided that changes have been correctly documented, this interval is",
+    "feedback": "9 years for each aeroplane."
+  },
+  {
+    "question": "The effect of the centre of gravity (CG) being close to the forward limit is:",
+    "feedback": "a reduced rate of climb capability"
+  },
+  {
+    "question": "The maximum intensity floor loading for an aircraft is given in the Flight Manual as 650 kg per square metre. What is the maximum mass of a package which can be safely supported on a pallet with dimensions of 80 cm by 80 cm?",
+    "feedback": "416.0 kg"
+  },
+  {
+    "question": "The BEM of an aircraft is the basic empty weight of an aircraft without crew and items of removable equipment. It is found in the...",
+    "feedback": "weighing schedule at the last date of weighing."
+  },
+  {
+    "question": "The basic empty mass of an aircraft is 30 000 kg. The masses of the following items are :\n- catering: 300 kg\n- safety and rescue material: nil\n- fly away kit: nil\n- crew (inclusive crew baggage): 365kg\n- fuel at take-off: 3 000 kg\n- unusable fuel:  120 kg\n- passengers, baggage, cargo: 8 000 kg\n\nThe Dry Operating Mass is :",
+    "feedback": "30 665 kg"
+  },
+  {
+    "question": "Refer to the Mass & Balance Appendix, figure MB-015\n\nThe weight and balance sheet is available and contrary to the forecast, cargo compartment 1 is empty.\nThe zero fuel weight centre of gravity in MAC % (Mean Aerodynamic Chord) is located at:",
+    "feedback": "34,9 %"
+  },
+  {
+    "question": "Refer to the graph. For the following boom to be in balance:",
+    "feedback": "A = B x Fb / Fa"
+  },
+  {
+    "question": "An aeroplane with a two wheel nose gear and four main wheels rests on the ground with a single nose wheel load of 7250 N and a single main wheel load of 60000 N. The distance between the nose wheels and the main wheels is 10 metres. How far is the centre of gravity in front of the main wheels?",
+    "feedback": "57 cm"
+  },
+  {
+    "question": "Refer to the M&B Appendix, figures MB-012, MB-013, MB-016\n\nKnowing that:\n. Dry operating mass: 110 000 kg\n. Basic index: 119.1\n. Number of passengers: 185 distributed as shown in the appendix (75 kg per PAX)\n. Cargo load + luggage: 14 000 kg distributed as shown in the appendix\n. Fuel: 42 000 kg\nStages (1) to (7) and (11) having already been calculated, the centre of gravity in % MAC (Mean Aerodynamic Cord) for zero fuel mass is located at:",
+    "feedback": "30.85 %"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.9)\nWhich of the following pallets can be loaded in the aft section of the forward cargo compartment, between 343-500 BA - in? All pallets have the same size of 55 x 40 in.(assume 12 in = 1 ft)",
+    "feedback": "720 kg"
+  },
+  {
+    "question": "Consider an aircraft with 8 passenger seats, use CAP 696, figure 6, General Notes. Find the standard mass for a female passenger.",
+    "feedback": "78 kg"
+  },
+  {
+    "question": "The centre of gravity of an aircraft",
+    "feedback": "can be allowed to move between defined limits."
+  },
+  {
+    "question": "According to the Aircraft Flight Manual, the Maximum Structural Mass of your aircraft is 3650 lb, which may be increased by 30 lb for taxiing. It is a hot day and the performance charts restrict the Performance Limiting Take-off Mass to 3540 lb. What is the value of the Regulated Take-off Mass (RTOM)?",
+    "feedback": "3540 lb"
+  },
+  {
+    "question": "A container is loaded so that the floor contact area os 0.12 m2. Calculate the maximum mass of the container, given that the maximum permissible floor load of the cargo compartment is 700 kg/m2.",
+    "feedback": "84 kg"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.11)\nA aeroplane has a landing mass of 53 000kg. The range of safe CG positions, as determined from the appropriate graph in the loading manual, is :",
+    "feedback": "Forward limit 7.8% MAC aft limit 27.0% MAC"
+  },
+  {
+    "question": "A piece of cargo of 1.3 m2 and a mass of 600 kg is loaded on two pallets with dimensions of 0.2 m x 1.2 m each. Considering that the maximum area loading equals 367 kg/m2, can this cargo be transported in the cargo hold?",
+    "feedback": "No, because the maximum area load is exceeded"
+  },
+  {
+    "question": "Prior to departure an aeroplane is loaded with 16500 litres of fuel at a fuel density of 780 kg/m³.  This is entered into the load sheet as 16500 kg and calculations are carried out accordingly.  As a result of this error, the aeroplane is",
+    "feedback": "lighter than anticipated and the calculated safety speeds will be too high"
+  },
+  {
+    "question": "If other factors are unchanged, the fuel mileage (nautical miles per kg) is:",
+    "feedback": "lower with a forward centre of gravity position"
+  },
+  {
+    "question": "The maximum certificated taxi (or ramp) mass is that mass to which an aeroplane may be loaded prior to engine start. It is :",
+    "feedback": "a fixed value which is listed in the Flight Manual."
+  },
+  {
+    "question": "Refer to the table.\nA container has base dimensions of 0.8 m x 0.8 m. The container is planned to be loaded directly on the floor of the FWD cargo hold. Given that the maximum permissible floor load must be respected, what is the maximum mass that can be loaded in the container?",
+    "feedback": "468 kg"
+  },
+  {
+    "question": "Standard masses may be used for the computation of mass values for baggage if the aeroplane",
+    "feedback": "has 20 or more seats."
+  },
+  {
+    "question": "An aeroplane is loaded with its centre of gravity towards the rear limit. This will not result in :",
+    "feedback": "an increase in longitudinal stability"
+  },
+  {
+    "question": "(For this Question use Loading Manual MRJT1)\nFor the medium range twin jet the datum point is located",
+    "feedback": "540 inches forward of the front spar."
+  },
+  {
+    "question": "A revenue flight is to be made by a jet transport. The following are the aeroplane's structural limits:\n-Maximum Ramp Mass:         69 900 kg\n-Maximum Take Off Mass:     69 300 kg\n-Maximum Landing Mass:      58 900 kg\n-Maximum Zero Fuel Mass:    52 740 kg\nThe performance limited take off mass is 67 450kg and the performance limited landing mass is 55 470 kg.\nDry Operating Mass:                  34 900 kg\nTrip Fuel:                                     6 200 kg\nTaxi Fuel:                                       250 kg\nContingency & final reserve fuel:    1 300 kg\nAlternate Fuel:                             1 100 kg       \nThe maximum traffic load that can be carried is:",
+    "feedback": "17 840 kg"
+  },
+  {
+    "question": "For the purpose of completing the Mass and Balance documentation, the Traffic Load is considered to be equal to the Take-off Mass",
+    "feedback": "less the Operating Mass."
+  },
+  {
+    "question": "The total mass of the aeroplane including crew, crew baggage; plus catering and removable passenger equipment; plus potable water and lavatory chemicals but excluding usable fuel and traffic load, is referred to as:",
+    "feedback": "Dry Operating Mass."
+  },
+  {
+    "question": "Given: Maximum structural take-off mass= 146 900 kg Maximum structural landing mass= 93 800 kg Maximum zero fuel mass= 86 400 kg Trip fuel= 27 500 kg Block fuel= 35 500 kg Engine starting and taxi fuel = 1 000 kg The maximum take-off mass is equal to:",
+    "feedback": "120 900 kg"
+  },
+  {
+    "question": "The maximum quantity of fuel that can be loaded into an aircraft's tanks is given as 2200 litres. If the fuel density (specific gravity) is given as 0.79, the mass of fuel which may be loaded is:",
+    "feedback": "1738 kg"
+  },
+  {
+    "question": "To measure the mass and CG-position of an aircraft, it should be weighed with a minimum of:",
+    "feedback": "3 points of support"
+  },
+  {
+    "question": "Refer to Mass & Balance Appendix, figure MB-003\n\nUsing the data given in the Load & Trim sheet, determine from the following the correct values for the take off mass and the position of the centre of gravity at that mass if the fuel index correction to be applied is given as - 0.9",
+    "feedback": "17.5 %"
+  },
+  {
+    "question": "If an aeroplane is at a higher mass than anticipated, for a given airspeed the angle of attack will",
+    "feedback": "be greater, drag will increase and endurance will decrease."
+  },
+  {
+    "question": "The static longitudinal stability of an aeroplane decreases if the:",
+    "feedback": "Centre of gravity moves aft"
+  },
+  {
+    "question": "An aeroplane is said to be 'neutrally stable'. This is likely to:",
+    "feedback": "be caused by a centre of gravity which is towards the rearward limit."
+  },
+  {
+    "question": "The length of the MAC is 114 inches, and the centre of gravity limits are 12 % to 38 % MAC.\nIf the centre of gravity position is 10 % MAC, how many inches is it out of limits?",
+    "feedback": "2.28 inches"
+  },
+  {
+    "question": "Which of  the following corresponds to Zero Fuel Mass?",
+    "feedback": "The take-off mass of an aeroplane minus all usable fuel"
+  },
+  {
+    "question": "Which of the following is most likely to affect the range of centre of gravity  positions on an aeroplane?",
+    "feedback": "Elevator and tailplane (horizontal stabiliser) effectiveness in all flight conditions."
+  },
+  {
+    "question": "The term 'Maximum Zero Fuel Mass' consist of :",
+    "feedback": "The maximum permissible mass of an aeroplane with no usable fuel."
+  },
+  {
+    "question": "The take-off mass of an aeroplane is 117 000 kg, comprising a traffic load of 18 000 kg and fuel of 46 000 kg. What is the dry operating mass?",
+    "feedback": "53 000 kg"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.9) A pallet having a freight platform which measures 200 cm x 250 cm has a total mass of 300 kg. The pallet is carried on two ground supports each measuring 20 cm x 200 cm.  Using the loading manual for the transport aeroplane, calculate how much mass may be added to, or must be off loaded from, the pallet in order for the load intensity to match the maximum permitted distribution load intensity for lower deck forward cargo compartement.",
+    "feedback": "285.5 kg may be added."
+  },
+  {
+    "question": "Refer to Mass & Balance Appendix, figure MB-001\n\nUsing the data given in the appendix to this question, if the fuel index corrections (from ZFM index) are as follows\n9500 kg   - 0.9\n6500 kg   - 6.1\n3500 kg   - 4.7\n3000 kg   - 4.3\nWhich of the following represent  the correct values for landing mass of the aeroplane and the position of the centre of gravity for this condition ?",
+    "feedback": "49130 kg and 19 %"
+  },
+  {
+    "question": "You are departing for a flight with a planned landing fuel of 3000 kg. According to aircraft limitations, the centre tank fuel must be used prior to the wing tank fuel. Given the following information, how many metres after of the datum will the CG be located on landing?\nMaximum take-off mass; 99800 kgActual take-off mass: 59500 kgTake-off CG location: 16.26 m aft of the datumFuel in centre tank at take-off: 16000 kgFuel wing tanks at take-off: 18000 kgCentre fuel tank centroid: 15.38 m aft of the datumWing fuel tank centroid: 17.79 m aft of the datum",
+    "feedback": "15.95 m"
+  },
+  {
+    "question": "In relation to an aeroplane, the term ' Basic Empty Mass' includes the mass of the aeroplane structure complete with its powerplants, systems, furnishings and other items of equipment considered to be an integral part of the particular aeroplane configuration. Its value is",
+    "feedback": "found in the latest version of the weighing schedule as corrected to allow for modifications."
+  },
+  {
+    "question": "Without the crew, the mass and longitudinal CG position of the aircraft are 6 000 kg and 4,70m.\n\n - the mass of the pilot is 90 kg\n - the mass of the copilot is 100 kg\n - the mass of the flight engineer is 80 kg\n\nWith the crew, the mass and longitudinal CG position of the aircraft are :",
+    "feedback": "6 270 kg and 4.594 m"
+  },
+  {
+    "question": "Given:\nFuel volume: 3800 US Gallons\nFuel density: 0.79 kg/l\n\nWhat is fuel mass?",
+    "feedback": "11364 kg."
+  },
+  {
+    "question": "Given that the total mass of an aeroplane is 112 000 kg with a centre of gravity position at 22.62m aft of the datum. The centre of gravity limits are between 18m and 22m. How much mass must be removed from the rear hold (30 m aft of the datum) to move the centre of gravity to the middle of the limits:",
+    "feedback": "29 344 kg"
+  },
+  {
+    "question": "The loading for a flight is shown in the loadsheet, with the following data applying to the aeroplane:\nMaximum take-off mass: 150 000 kg\nMaximum landing mass: 140 000 kg\nCentre of gravity (cg) limit forward: 10.5 m aft of datum\n                                            aft: 13.0 m aft of datum\nEstimated trip fuel: 55 000 kg",
+    "feedback": "Landing cg is out of limits at 10.17 m aft of datum."
+  },
+  {
+    "question": "If individual masses are used, the mass of an aeroplane must be  determined prior to initial entry into service and thereafter",
+    "feedback": "at intervals of 4 years if no modifications have taken place."
+  },
+  {
+    "question": "An aircraft has a loaded mass of 5500 lbs. The CG is 22 inches aft of the datum. A passenger, mass 150 lbs, moves aft from row 1 to row 3, a distance of 70 inches.\nWhat will be the new position of the CG, assuming all dimensions aft of the datum?",
+    "feedback": "23.9 inches"
+  },
+  {
+    "question": "A flight has been made from London to Valencia carrying minimum fuel and maximum traffic load. On the return flight the fuel tanks in the aeroplane are to be filled to capacity with a total fuel load of 20100 litres at a fuel density of  0.79 kg/l.\nThe following are the aeroplane's structural limits:\n-Maximum Ramp Mass:         69 900 kg\n-Maximum Take Off Mass:     69 300 kg\n-Maximum Landing Mass:      58 900 kg\n-Maximum Zero Fuel Mass:    52 740 kg\nThe performance limited take off mass at Valencia is 67 330 kg.\nThe landing mass at London is not performance limited.\nDry Operating Mass:                34 930 kg\nTrip Fuel (Valencia to London):   5 990 kg\nTaxi fuel:                                     250 kg\nThe maximum traffic load that can be carried from Valencia will be:",
+    "feedback": "14 331 kg"
+  },
+  {
+    "question": "Dry Operating Mass is the mass of the aeroplane less",
+    "feedback": "usable fuel and traffic load."
+  },
+  {
+    "question": "An aeroplane is weighed prior to entry into service.  Who is responsible for deriving the Dry Operational Mass from the weighed mass by the addition of the 'operational items' ?",
+    "feedback": "The Operator."
+  },
+  {
+    "question": "If the centre of gravity is near the forward limit the aeroplane will:",
+    "feedback": "require elevator trim which will result in an increase in fuel consumption."
+  },
+  {
+    "question": "According to the Aircraft Flight Manual, the Maximum Structural Mass of your aircraft is 3200 lb for take-off or landing, which may be increased by 50 lb for taxiing. It is a hot day and the performance charts restrict the Maximum All Up Mass (MAUM) to 3100 lb. What is the value of the Regulated Take-off Mass (RTOM)?",
+    "feedback": "3100 lb"
+  },
+  {
+    "question": "Traffic load is the difference between the:",
+    "feedback": "take-off mass and the operating mass"
+  },
+  {
+    "question": "Determine the Zero Fuel Mass for the following single engine aeroplane.\n\nGiven :\nStandard Empty Mass          : 1764 lbs \nOptional Equipment                 : 35 lbs \nPilot + Front seat passenger    : 300 lbs\nCargo Mass                            : 350 lbs\nRamp Fuel = Block Fuel          : 60 Gal.\nTrip Fuel                                 : 35 Gal.\nFuel density                            : 6 lbs/Gal.",
+    "feedback": "2449 lbs"
+  },
+  {
+    "question": "Given:Mass: 112600 kgMAC: 30.7 %\nFrom the values and information given by the sheet above, find the dry operating index if an additional pilot /75 kg) will join the flight in zone G:",
+    "feedback": "119.3"
+  },
+  {
+    "question": "The following data applies to an aeroplane which is about to take off:  \nCertified maximum take-off mass              141500 kg \nPerformance limited take-off mass              137300 kg \nDry Operating Mass              58400 kg \nCrew and crew hand baggage mass              640 kg \nCrew baggage in hold                        110 kg\nFuel on board             60700 kg\n\nFrom this data calculate the mass of the useful load.",
+    "feedback": "78900 kg"
+  },
+  {
+    "question": "During dispatch calculations, you want to calculate the maximum possible Traffic Load and carry as minimum 13800 kg of Block Fuel.\nDetermine the Allowed Traffic Load for your flight, given:\nAllowed Take-Off Mass 71402 kgMaximum Zero Fuel Mass 56850 kgDry Operating Mass 40763 kgActual Traffic Load 14894 kgTaxi Fuel 179 kg\nAssume no restrictions on the Landing Mass.",
+    "feedback": "16087 kg"
+  },
+  {
+    "question": "In cruise flight, a centre of gravity moving aft will:",
+    "feedback": "decrease longitudinal static stability"
+  },
+  {
+    "question": "refer to the document.\nA container having the dimensions of 2.20 m x 1.40 m x 1.50 m (length x width x height) is loaded into the forward cargo hold of a long-range jet transport aeroplane.\nDetermine the maximum mass of this container complying with the maximum permitted distribution load of the cargo hold, given the loading information in the attached document.",
+    "feedback": "2002 kg"
+  },
+  {
+    "question": "A cubic container whose sides all measure 0.8 m is planned to be loaded in a cargo compartment with a maximum running load of 1915 kg/m. The container shall be loaded on two ground supports (of negligible mass) having a length in the direction of the flight of 0.2 m each.\nGiven that the maximum running load of the cargo compartment must be respected, what is the maximum mass that can be loaded in the container?",
+    "feedback": "766 kg"
+  },
+  {
+    "question": "Loads must be adequately secured in order to:",
+    "feedback": "avoid unplanned centre of gravity (cg) movement and aircraft damage."
+  },
+  {
+    "question": "The distance from the datum to the Centre of Gravity of a mass is known as",
+    "feedback": "the moment arm or balance arm."
+  },
+  {
+    "question": "A mass of 500 kg is loaded at a station which is located 10 metres behind the present Centre of Gravity and 16 metres behind the datum. \n(Assume: g=10 m/s^2)\nThe moment for that mass used in the loading manifest is :",
+    "feedback": "80000 Nm"
+  },
+  {
+    "question": "Basic Empty Mass is:",
+    "feedback": "a component of Dry Operating Mass"
+  },
+  {
+    "question": "The flight preparation of a turbojet aeroplane provides the following data:\n  Take-off runway limitation: 185 000 kg\n  Landing runway  limitation: 180 000 kg\n  Planned fuel consumption: 11 500 kg\n  Fuel already loaded on board the aircraft: 20 000 kg\nKnowing that:\n  Maximum take-off mass (MTOM): 212 000 kg\n  Maximum landing mass (MLM): 174 000 kg\n  Maximum zero fuel mass (MZFM): 164 000 kg\n  Dry operating mass (DOM): 110 000 kg\nThe maximum cargo load that the captain may decide to load on board is:",
+    "feedback": "54 000 kg"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Paragraph 3.1) The medium range jet transport aeroplane is to operate a flight carrying the maximum possible fuel load.  Using the following data as appropriate, determine the mass of fuel on board at start of take off. Departure airfield performance limited take-off mass: 60 400 kg Landing airfield -not performance limited.  Dry Operating Mass: 34930 kg Fuel required for flight - Taxi fuel: 715 kg Trip fuel: 8600 kg Contingency and final reserve fuel: 1700 kg Alternate fuel 1500 kg Additional reserve 400 kg Traffic load for flight 11000 kg",
+    "feedback": "14 470 kg"
+  },
+  {
+    "question": "Refer to the Mass & Balance Appendix, figures MB-012, MB-014\n\nA turbojet aeroplane is parked with the following data:\nCorrected Dry Operating Mass: 110 100 kg\nBasic corrected index: 118.6\nInitial cargo distribution: cargo 1 = 4 000 kg; cargo 2 = 2 000 kg; cargo 3 = 2 000 kg;\nThe other cargo compartments are empty.\nTake-off mass: 200 000 kg\nCentre of gravity location: 32 % MAC (Mean Aerodynamic Cord)\nTo maximize performance, the captain decides to redistribute part of the cargo load between cargo 1 and cargo 4, in order to take off with a new centre of gravity location at 35 % MAC. After loading, the new load distribution between cargo 1 and cargo 4 is:",
+    "feedback": "2 500 kg in cargo 1; 1 500 kg in cargo 4"
+  },
+  {
+    "question": "Assume:\nAeroplane gross mass: 4750 kg\nCentre of gravity at station: 115.8\n\nWhat will be the new position of the centre of gravity if 100 kg is moved from the station 30 to station 120?",
+    "feedback": "Station 117.69"
+  },
+  {
+    "question": "In mass and balance calculations which of the following describes the datum?",
+    "feedback": "It is the point on the aeroplane designated by the manufacturers from which all centre of gravity measurements and calculations are made."
+  },
+  {
+    "question": "The maximum mass to which an aeroplane may be loaded, prior to engine start, is :",
+    "feedback": "maximum certificated taxi (ramp) mass."
+  },
+  {
+    "question": "The floor of the main cargo hold is limited to 4 000 N/m2.\nIt is planned to load a cubic container each side of which measures 0.5m.\nIts maximum gross mass must not exceed:\n(assume g=10m/s2)",
+    "feedback": "100 kg"
+  },
+  {
+    "question": "Where is the centre of gravity of the aeroplane in the diagram?",
+    "feedback": "26.57 cm forward of datum."
+  },
+  {
+    "question": "An aeroplane is weighed and the following recordings are made:\nnose wheel assembly scale       5330 kg   \nleft main wheel assembly scale            12370 kg  \nright main wheel assembly scale             12480 kg    \nIf the 'operational items' amount to a mass of 1780 kg with a crew mass of 545 kg, the empty mass, as entered in the weight schedule, is",
+    "feedback": "30180 kg"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.11) A aeroplane has a landing mass of 56 000kg. The range of safe CG positions, as determined from the appropriate graph in the loading manual, is :",
+    "feedback": "Forward limit 7.3% MAC aft limit 26.8% MAC"
+  },
+  {
+    "question": "Refer to the graph. For the following see-saw to be in balance:",
+    "feedback": "Fb = A x Fa / B"
+  },
+  {
+    "question": "A location in the aeroplane which is identified by a number designating its distance from the datum is known as:",
+    "feedback": "Station."
+  },
+  {
+    "question": "The crew of a transport aeroplane prepares a flight using the following data:\n- Block fuel: 40 000 kg\n- Trip fuel: 29 000 kg\n- Taxi fuel: 800 kg\n- Maximum take-off mass: 170 000 kg\n- Maximum landing mass: 148 500 kg\n- Maximum zero fuel mass: 112 500 kg\n- Dry operating mass: 80 400 kg\n\nThe maximum traffic load for this flight is:",
+    "feedback": "32 100 kg"
+  },
+  {
+    "question": "The centre of gravity of a body is that point",
+    "feedback": "through which the sum of the forces of all masses of the body is considered to act."
+  },
+  {
+    "question": "The floor limit of an aircraft cargo hold is 5 000 N/m2.\nIt is planned to load-up a cubic container measuring 0,4 m of side.\nIt's maximum gross mass must not exceed:\n(assume g=10m/s2)",
+    "feedback": "80 kg"
+  },
+  {
+    "question": "Given the following :\n- Maximum structural take-off mass 48 000 kg\n- Maximum structural landing mass: 44 000 kg\n- Maximum zero fuel mass: 36 000 kg\n-Taxi fuel: 600 kg\n-Contingency fuel: 900 kg\n-Alternate fuel: 800 kg\n-Final reserve fuel: 1 100 kg\n-Trip fuel: 9 000 kg\n\nThe actual take-off mass (TOM) can not be higher than:",
+    "feedback": "47 800 kg"
+  },
+  {
+    "question": "A box weighing 300 kg has dimensions of 1 m x 1.5 m x 0.6 m. It needs to be loaded in a cargo hold compartment with a maximum running load of 257.9 kg/m. Indicate the side of the box that should be placed on the floor along the longitudinal axis of the aircraft.",
+    "feedback": "The side that is 1.5 m long"
+  },
+  {
+    "question": "The total mass of an aeroplane is 9000 kg. The centre of gravity (cg) position is at 2.0 m from the datum line. The aft limit for cg is at 2.1 m from the datum line.\nWhat mass of cargo must be shifted from the front cargo hold (at 0.8 m from the datum) to the aft hold (at 3.8 m), to move the cg to the aft limit?",
+    "feedback": "300 kg"
+  },
+  {
+    "question": "Given the following information, calculate the Maximum Traffic Load that can be carried.\nMaximum Structural Take-Off Mass: 4200 kgPerformance-Limited Take-Off Mass: 4200 kgPerformance-Limited Landing Mass: 3810 kgDry Operating Mass: 2230 kgBlock Fuel: 865 kgTrip Fuel: 440 kgTaxi Fuel: 15 kg",
+    "feedback": "1120 kg"
+  },
+  {
+    "question": "An aeroplane has a mean aerodynamic chord (MAC) of 134.5 inches. The leading edge of this chord is at a distance of 625.6 inches aft of the datum. Give the location of the centre of gravity of the aeroplane in terms of percentage MAC if the mass of the aeroplane is acting vertically through a balance arm located 650 inches aft of the datum.",
+    "feedback": "18,14%"
+  },
+  {
+    "question": "An aeroplane is to depart from an airfield where the performance limited take-off mass is 89200 kg.  Certificated maximum masses are as follows: Ramp (taxi) mass 89930 kg Maximum Take-off mass 89430 kg MaximumLanding mass 71520 kgMaximum Zero fuel mass 62050 kg Fuel on board at ramp: Taxi fuel 600 kg Trip fuel 17830 kg Contingency, final reserve and alternate 9030 kg If the Dry Operating Mass is 40970 kg the traffic load that can be carried on this flight is",
+    "feedback": "21080 kg"
+  },
+  {
+    "question": "At a given mass the CG position is at 15% MAC. If the leading edge of MAC is at a position 625.6 inches aft of the datum and the MAC is given as 134.5 inches determine the position of the CG in relation to the datum.",
+    "feedback": "645.78 inches aft of datum"
+  },
+  {
+    "question": "An additional baggage container is loaded into the aft cargo compartment but is not entered into the load and trim sheet. The aeroplane will be heavier than expected and calculated take-off safety speeds",
+    "feedback": "will give reduced safety margins."
+  },
+  {
+    "question": "Which of the listed types of cargo can be found in a bulk cargo compartment?",
+    "feedback": "Late-arrival and crew baggage"
+  },
+  {
+    "question": "Which of the following statements is correct?",
+    "feedback": "Cargo may be loaded into a passenger compartment, provided that it is secured according to applicable regulations in EU-OPS 1"
+  },
+  {
+    "question": "The loaded centre of gravity (cg) of an aeroplane is 713 mm aft of datum. The mean aerodynamic chord lies between station 524 mm aft and 1706 mm aft. The cg expressed as % MAC (mean aerodynamic chord) is:",
+    "feedback": "16 %"
+  },
+  {
+    "question": "Which of the following statements is correct?",
+    "feedback": "A tail heavy aeroplane is less stable and stalls at a lower speed than a nose heavy aeroplane"
+  },
+  {
+    "question": "Which of the following statements is correct?",
+    "feedback": "The Maximum Landing Mass of an aeroplane is restricted by structural limitations, performance limitations and the strength of the runway."
+  },
+  {
+    "question": "For the purpose of aeroplane mass and balance calculations, the datum point is defined as:",
+    "feedback": "a fixed point from which all balance arms are measured. It may be located anywhere on the aeroplane's longitudinal axis or on the extensions to that axis"
+  },
+  {
+    "question": "The maximum floor loading for a cargo compartment in an aircraft is given as 170 kg per square metre. A package with a mass of 374 kg. is to be loaded. Assuming the pallet base is entirely in contact with the floor, which of the following is the minimum size pallet that can be used ?",
+    "feedback": "1.6 m X 1.4 m"
+  },
+  {
+    "question": "During the pre-flight mass and balance calculations, a fuel amount of 1850 kg has been decided to be carried for tankering purposes. While the refuelling procedure was about to start, the load controller informs the commander about a last minute change (LMC) of +285 kg. Given the following information, calculate the maximum Block Fuel than can be carried.\nDry Operating Mass: 4135 kgTraffic Load before LMC: 1200 kgMaximum Zero Fuel Mass: 6805 kgAllowed Take-Off Mass: 7205 kgMinimum Required Block Fuel: 1430 kgTaxi Fuel: 33 kg(assume no restriction on the Landing Mass)",
+    "feedback": "1618 kg"
+  },
+  {
+    "question": "Refer to Mass & Balance Appendix, figures MB-012, MB-015\n\nJust prior to departure, you accept 10 passengers additional on board who will be seated in \"compartment OC\" and you have 750 kg unloaded from cargo compartment 5. \nThe take-off centre of gravity in MAC % (Mean Aerodynamic Chord) will be located at:",
+    "feedback": "29.5 %"
+  },
+  {
+    "question": "Traffic load is the:",
+    "feedback": "Zero Fuel  Mass minus Dry Operating Mass."
+  },
+  {
+    "question": "On an aeroplane with 20 or more seats engaged on an inter-continental flight, the 'standard mass' which may be used for passenger baggage is",
+    "feedback": "15 kg per passenger."
+  },
+  {
+    "question": "During dispatch calculations, you want to calculate the maximum possible Traffic Load and carry as minimum 13800 kg of Block Fuel.\nDetermine the Allowed Traffic Load for your flight, given:\nAllowed Take-Off Mass 71204 kgMaximum Zero Fuel Mass 56490 kgDry Operating Mass 40195 kgActual Traffic Load 14585 kgTaxi Fuel 215 kg\nAssume no restrictions on the Landing Mass.",
+    "feedback": "16295 kg"
+  },
+  {
+    "question": "The term 'useful load' as applied to an aeroplane includes",
+    "feedback": "traffic load plus useable fuel."
+  },
+  {
+    "question": "Given that:\n- Maximum structural  take-off mass: 146 000 kg\n- Maximum structural landing mass: 93 900 kg\n- Actual zero fuel mass: 86 300 kg\n- Trip fuel: 27 000 kg\n- Taxi fuel: 1 000 kg\n- Contingency fuel: 1350 kg\n- Alternate fuel: 2650 kg\n- Final reserve fuel: 3000 kg\nDetermine the actual take-off mass:",
+    "feedback": "120 300 kg."
+  },
+  {
+    "question": "Given the following fuel masses, calculated by the pilot of a light aircraft with the following mass limitations, according to the limitation section of the Aircraft Flight Manual, what is the maximum traffic load for this flight?\nBlock Fuel: 890 kgTrip Fuel: 480 kgTaxi Fuel: 25 kg\nMaximum Structural Take-Off Mass: 5800 kgPerformance-Limited Take-Off Mass: 5650 kgPerformance-Limited Landing Mass: 4700 kgToday's flight Dry Operating Mass: 2970 kg",
+    "feedback": "1345 kg"
+  },
+  {
+    "question": "Considering only structural limitations, on long distance flights (at the aeroplane's maximum range), the traffic load is normally limited by:",
+    "feedback": "The maximum take-off mass."
+  },
+  {
+    "question": "The base of a container has a length of 2.4 m and a width of 1.2 m. The container has a height 1.3 m, and it must be loaded on its base. The maximum mass that can be loaded in this container without exceeding the maximum permissible floor load of 135 kg/m2 is ....",
+    "feedback": "388.8 kg"
+  },
+  {
+    "question": "Which one of the following shipments can be loaded in a cargo compartment with a floor loading of 70 kg/m2?\nShipment W: 500 kg on a pallet sized 2 m x 2 mShipment X: 500 kg on a pallet sized 1 m x 1 mShipment Y: 600 kg on a pallet sized 2 m x 2 mShipment Z: 600 kg on a pallet sized 3 m x 3 m\n(all pallets are in direct contact with the cargo floor)",
+    "feedback": "Shipment Z"
+  },
+  {
+    "question": "What is the difference between the Take-Off Mass and the Block (Ramp) Fuel?",
+    "feedback": "DOM + traffic load"
+  },
+  {
+    "question": "The loaded mass of an aircraft is 2000 kg. What is the movement of the CG if additional 400 kg of cargo is loaded to a hold 2 m aft of the present CG position?",
+    "feedback": "0.33 m aft"
+  },
+  {
+    "question": "If the centre of gravity of an aeroplane moves forward during flight the elevator control will :",
+    "feedback": "become heavier making the aeroplane more difficult to manouevre in pitch"
+  },
+  {
+    "question": "The responsibility for determination of the mass of 'operating items' and 'crew members' included within the Dry Operating Mass lies with",
+    "feedback": "the operator."
+  },
+  {
+    "question": "For this question use MRJT Figure 4.9\nFor the aft cargo compartment (Cargo Hold 4), area between balance arms (BA) 940 in and 997 in, determine the (1) maximum running load, (2) maximum distribution load intensity and (3) the maximum load:",
+    "feedback": "(1) 7.26 kg/in, (2) 68 kg/ft2, (3) 414 kg"
+  },
+  {
+    "question": "An aeroplane is to depart from an airfield at a take-off mass of 302550 kg. Fuel on board at take-off (including contingency and alternate of 19450 kg) is 121450 kg. The Dry Operating Mass is 161450 kg. The useful load will be",
+    "feedback": "141100 kg"
+  },
+  {
+    "question": "A container with a base area of 5 x 5 ft is loaded into a cargo compartment. The maximum running load of the compartment is 85 lb/feet. The maximum possible weight of the container is:",
+    "feedback": "425 lb"
+  },
+  {
+    "question": "The operator of an aircraft equipped with 50 seats uses standard masses for passengers and baggage. During the preparation of a scheduled flight a group of passengers present themselves at the check-in desk, it is apparent that even the lightest of these exceeds the value of the declared standard mass.",
+    "feedback": "the operator should use the individual masses of the passengers or alter the standard mass"
+  },
+  {
+    "question": "A loaded aircraft has its Centre of Gravity (CG) 48 inches forward of the datum, and its mass is 2966 lb. If a last minute load of 128 lb is added 28 inches aft of the datum, what is the new position of the CG?",
+    "feedback": "44.86 inches forward of the datum"
+  },
+  {
+    "question": "An aircraft has its datum at the nose. The front seats are 65 inches aft of datum, the passenger seats are 105 inches aft and the separate baggage compartment is 137 inches aft. The aft limit is 139 inches aft. The current mass is 2530 lb.\nThree passengers are in the rear seats, with the baggage compartment full. As all passengers request to sit together, the front seat is empty, the pilot is very light and, because of the situation, the Centre of Gravity (CG) of the aircraft is 3 inches behind the aft limit.\nIgnoring maximum mass limits, how much extra ballast must be secured in the front seat in order to have the CG in the authorized limit?",
+    "feedback": "103 lb"
+  },
+  {
+    "question": "The mass displacement caused by landing gear extension:",
+    "feedback": "creates a longitudinal moment in the direction (pitch-up or pitch-down) determined by the type of landing gear"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Paragraph 4) For the medium range transport aeroplane, from the loading manual, determine the maximum total volume of fuel which can be loaded into the main wing tanks. (Fuel density value 0.78)",
+    "feedback": "11349 litres"
+  },
+  {
+    "question": "The weight of an aircraft, which is in level non accelerated flight, is said to act",
+    "feedback": "vertically through the centre of gravity."
+  },
+  {
+    "question": "What are the forward and aft CG limits for an aircraft having a gross mass which is equal to the maximum structural take-off mass (MSTOM)?",
+    "feedback": "90.6 and 94.6 in"
+  },
+  {
+    "question": "Which of the following formulas is correct?\nUnderload = ......",
+    "feedback": "Allowable Take-off Mass - Dry Operating Mass - Useful Load"
+  },
+  {
+    "question": "The standard mass for a child is",
+    "feedback": "35 kg for all flights."
+  },
+  {
+    "question": "Following the acceptance of the Load Sheet and the Operational Flight Plan, the Commander decides to refuel his/her aircraft with 1618 US Gallons at a specific gravity of 0.8.\nThe Fuel Mass loaded on board is:",
+    "feedback": "10801 lbs"
+  },
+  {
+    "question": "Given the following information, calculate the Maximum Traffic Load than can be carried.\nMaximum Structural Take-Off Mass: 6100 kgPerformance Limited Take-Off Mass: 6000 kgPerformance Limited Landing Mass: 5250 kgDry Operating Mass: 3460 kgBlock Fuel: 930 kgTrip Fuel: 530 kgTaxi Fuel: 20 kg",
+    "feedback": "1410 kg"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.11)\nThe aeroplane has a Take Off Mass of 58 000 kg. At this mass the range of safe CG positions, as determined from the appropriate graph in the loading manual, is:",
+    "feedback": "Forward limit 8.0% MAC aft limit 26.5% MAC"
+  },
+  {
+    "question": "(For this Question use Loading Manual MRJT1)\nFor the transport aeroplane the moment (balance) arm (B.A.) for the forward hold centroid is:",
+    "feedback": "367.9 inches."
+  },
+  {
+    "question": "Calculate the centre of gravity in % MAC (mean aerodynamic chord) with following data: Distance datum - centre of gravity: 12.53 m Distance datum - leading edge: 9.63 m Length of MAC: 8 m",
+    "feedback": "36.3 % MAC"
+  },
+  {
+    "question": "Refer to the Load Sheet.\nThe pilot of light, single engined aircraft has partly filled out a load sheet while waiting for a female passenger. When she arrives, the passenger weighs herself and her baggage for the pilot to complete the load sheet. Given the following masses, what is the Total Gross Mass of the aircraft with the passenger and the baggage?\nPassenger 135 lbsBaggage 25 lbs",
+    "feedback": "1674 lbs"
+  },
+  {
+    "question": "Given: Maximum allowable take-off mass 64 400 kg; maximum landing mass 56200 kg; maximum zero fuel mass 53 000 kg; dry operating mass 35 500 kg; estimated load 14 500 kg; estimated trip fuel 4 900 kg; minimum take-off fuel 7 400 kg.\nFind: maximum additional load",
+    "feedback": "3 000 kg"
+  },
+  {
+    "question": "Given the following information, what is the underload/overload?\nAllowed Take-Off Mass: 4300 kgOperating Mass: 3169 kgTotal Fuel Mass: 680 kgMass of the crew and their baggage: 183 kgTraffic Load: 1104 kg",
+    "feedback": "Underload of 27 kg"
+  },
+  {
+    "question": "Refer to the Mass & Balance Appendix, figures MB-012, MB-014\n\nA turbojet aeroplane has a planned take-off mass of 190 000 kg. Following cargo loading, the crew is informed that the centre of gravity at take-off is located at 38 % MAC (Mean Aerodynamic Cord) which is beyond limits. The captain decides then to redistribute part of the cargo load between cargo 1 and cargo 4 in order to obtain a new centre of gravity location at 31 % MAC. He asks for a transfer of:",
+    "feedback": "3 000 kg from cargo 4 to cargo 1."
+  },
+  {
+    "question": "Given an aeroplane with:     \nMaximum Structural Landing Mass: 125000 kg\nMaximum Zero Fuel Mass: 108500 kg                      \nMaximum Structural Take-off Mass: 155000 kg\nDry Operating Mass: 82000 kg\nScheduled trip fuel is 17000 kg and the reserve fuel is 5000 kg.\n\nAssuming performance limitations are not restricting, the maximum permitted take-off mass and maximum traffic load are respectively:",
+    "feedback": "130500 kg and 26500 kg"
+  },
+  {
+    "question": "Refer to the figure.\nFor take-off performance purposes, you need to establish a CG position at take-off at 798 inches aft of the datum. Given the following information, which one of the two boxes must be moved and into which hold?\n\nCurrent CG position: 780 inches aft of the datum\nActual take-off mass: 48700 lb\nBox X is located 1185 inches aft of the datum, in hold 5\nBox Z is located 180 inches aft of the datum, in hold 1\nBoth boxes have the same mass of 880 lb\nConsider the fuel consumption from engine start to take-off negligible",
+    "feedback": "Box Z must be moved to hold 5"
+  },
+  {
+    "question": "The CG position of an aeroplane is 683.4 inches aft of the datum. Given the following characteristics of the aeroplane's wing, calculate the CG position as % MAC.\nLeading edge of the wing root: 575 inches aft of the datumLeading edge of the MAC: 598 inches aft of the datumLeading edge of the wing tip: 680 inches aft of the datumLength of the wing root chord: 183.82 inchesLength of MAC: 164.38 inchesLength of the wing tip chord; 60.13 inches",
+    "feedback": "51.95 % MAC"
+  },
+  {
+    "question": "Which of the following statements is correct?",
+    "feedback": "A tail heavy aeroplane is less stable and stalls at a lower speed than a nose heavy aeroplane"
+  },
+  {
+    "question": "(For this Question use Appendix Trim Sheet MB-001) Using the load and trim sheet, which of the following is the correct value for the index at a Dry Operating Mass (DOM) of 35000 kg with a CG at 14% MAC ?",
+    "feedback": "40.0"
+  },
+  {
+    "question": "Given: Dry Operating Mass= 29 800 kg Maximum Take-Off Mass= 52 400 kg Maximum Zero-Fuel Mass= 43 100 kg Maximum Landing Mass= 46 700 kg Trip fuel= 4 000 kg Fuel quantity at brakes release= 8 000 kg The maximum traffic load is:",
+    "feedback": "12 900 kg"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.9)\nFrom the loading manual for the transport aeroplane, the aft cargo compartment has a maximum total load of :",
+    "feedback": "4187 kg"
+  },
+  {
+    "question": "The flight manual states that the Maximum Structural Landing Mass of an aircraft is 5300 kg. For a flight terminating in a hot desert area, the density altitude for the day concerned restricts the landing mass to 4900 kg. If the contingency fuel of 30 kg has not been used, what is the Regulated Landing Mass?",
+    "feedback": "4900 kg"
+  },
+  {
+    "question": "In mass and balance calculations the \"index\" is:",
+    "feedback": "a figure without unit of measurement which represents a moment"
+  },
+  {
+    "question": "An aeroplane has its centre of gravity located 7 metres from the datum line and it has a mass of 49000 N. The moment about the datum is:",
+    "feedback": "343 000 Nm."
+  },
+  {
+    "question": "Which one of the following is correct?",
+    "feedback": "Arm = Moment / Force"
+  },
+  {
+    "question": "The maximum structural mass of an aircraft, according to the flight manual, is equal to 5300 lb for both take-off and landing, and can be increased by up to 50 lb for taxi. On a particular hot and humid day, the maximum all-up mass has been reduced to 5100 lb. What is the regulated landing mass?",
+    "feedback": "5100 lb"
+  },
+  {
+    "question": "The Operating Mass of an aircraft is ....",
+    "feedback": "Dry Operating Mass plus the Take-Off Fuel Mass"
+  },
+  {
+    "question": "The centre of gravity is the",
+    "feedback": "point where all the aircraft mass is considered to be concentrated"
+  },
+  {
+    "question": "With respect to loading in the planning phase, which of the following statements is always correct ?\nLM       = Landing Mass\nTOM    = Take-off Mass\nMTOM = Maximum Take-off Mass\nZFM    = Zero Fuel Mass\nMZFM = Maximum Zero Fuel Mass\nDOM   = Dry Operating Mass",
+    "feedback": "LM = TOM - Trip Fuel"
+  },
+  {
+    "question": "Refer to Mass & Balance Appendix, figures MB-012, MB-015\n \nContrary to the forecast given in the LOAD and TRIM sheet, cargo compartment 1 is empty. The take-off centre of gravity in MAC % (Mean Aerodynamic Chord)  will be located at:",
+    "feedback": "32.5 %"
+  },
+  {
+    "question": "Why is it important to have accurate information about the airplane mass and CG position during flight?",
+    "feedback": "It allows to select a real, optimum cruising level"
+  },
+  {
+    "question": "A flight benefits from a strong tail wind which was not forecast.  On arrival at destination a straight in approach and immediate landing clearance is given.  The landing mass will be higher than planned and",
+    "feedback": "the landing distance required will be longer."
+  },
+  {
+    "question": "Given the following information for a Commercial Air Transport flight, what is the underload/overload?\nMaximum Structural Take-Off Mass: 5660 kgPerformance-Limited Take-Off Mass: 5450 kgDry Operating Mass: 2890 kgTake-Off Fuel: 970 kgPassengers and baggage mass: 235 kgTraffic Load: 1420 kg",
+    "feedback": "Underload of 170 kg"
+  },
+  {
+    "question": "for this question use CAP 696, Figure 2.1\nThe datum of the aircraft in the figure is located at ......",
+    "feedback": "97.0 inches forward of the main wheels"
+  },
+  {
+    "question": "According to the Aircraft Flight Manual, the Maximum Structural Mass of your aircraft is 3720 lb, which may be increased by 20 lb for taxiing. It is a hot day and the performance charts restrict the Maximum All Up Mass (MAUM) to 3640 lb. What is the value of the Regulated Take-off Mass (RTOM)?",
+    "feedback": "3640 lb"
+  },
+  {
+    "question": "The Maximum Zero Fuel Mass is a structural limiting mass.  It is made up of the aeroplane Dry Operational mass plus",
+    "feedback": "traffic load."
+  },
+  {
+    "question": "When preparing to carry out the weighing procedure on an aircraft, which of the following is not required?",
+    "feedback": "drain all engine tank oil."
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.9)\nReferring to the loading manual for the transport aeroplane, the maximum load intensity for the lower forward cargo compartment is:",
+    "feedback": "68 kg per square foot."
+  },
+  {
+    "question": "The baggage compartment of a particular aircraft is 1.2 m wide by 1.4 m long and has a maximum floor loading of 500 kg per square metre.\nThe maximum capacity of the baggage compartment is (limited by the maximum floor load only):",
+    "feedback": "840 kg"
+  },
+  {
+    "question": "The term \"useful load\" as applied to a light aircraft includes:",
+    "feedback": "pilot(s), operating items, passengers, baggage, cargo and useable fuel"
+  },
+  {
+    "question": "The maximum area load of the floor of the cargo bay of an aircraft is 400 kg/m2. There is a load of 245 kg that needs to be positioned in the cargo bay. What are the dimensions of the appropriate pallet for that load, to ensure that the maximum floor load limit is not violated?",
+    "feedback": "0.33 m x 2.0 m"
+  },
+  {
+    "question": "Given the following information, calculate the loaded centre of gravity (cg).  ___________________________________________________________________ STATION MASS (kg) ARM (cm) MOMENT (kgcm) ___________________________________________________________________ Basic Empty Condition 12045 +30 +361350 Crew 145 -160 -23200 Freight A 5455 +200 +1091000 Freight B 410 -40 -16400 Fuel 6045 -8 -48360 Oil 124 +40 +4960",
+    "feedback": "56.53 cm aft datum."
+  },
+  {
+    "question": "Refer to the Mass and Balance Appendix LRJT 1 The planned take-off mass of a turbojet aeroplane is 180 000 kg, with its centre of gravity located at 26 % MAC (Mean Aerodynamic Cord). Shortly prior to engine start, the local staff informs the flight crew that 4 000 kg must be unloaded from cargo 4. After the handling operation, the new centre of gravity location in % MAC will be:",
+    "feedback": "22.6 %"
+  },
+  {
+    "question": "For this question use Mass and Balance Appendix, Figure MB-016\nDetermine from the given data the zero fuel mass index.",
+    "feedback": "125.3"
+  },
+  {
+    "question": "Given the following information, what is the underload/overload?\nAllowed Take-Off Mass: 4300 kgOperating Mass: 3253 kgTotal Fuel Mass: 650 kgMass of the crew and their baggage: 185 kgTraffic Load: 1015 kg",
+    "feedback": "Underload of 32 kg"
+  },
+  {
+    "question": "The maximum zero-fuel mass: 1- is a regulatory limitation 2- is calculated for a maximum load factor of +3.5 g 3- is due to the maximum permissible bending moment at the wing root 4- imposes fuel dumping from the outer wings tank first 5- imposes fuel dumping from the centre wings tank first  The combination of correct statements is:",
+    "feedback": "1, 3, 5"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.9)\nFrom the  loading manual for the jet transport aeroplane, the maximum floor loading intensity for the aft cargo compartment is :",
+    "feedback": "68 kg per square foot."
+  },
+  {
+    "question": "Determine the allowed mass for take-off for a Medium Range Jet Transport Aeroplane (MRJT). Given:\nMaximum Zero Fuel Mass (MZFM): 61688 kgMaximum Take-Off Mass (MTOM): 66990 kgMaximum Landing Mass (MLM): 65137 kgPerformance-Limited Take-Off Mass (TOM): 64900 kgPerformance-Limited Landing Mass (LM): 67300 kgTrip Fuel: 3800 kgBlock Fuel: 6000 kg",
+    "feedback": "64900 kg"
+  },
+  {
+    "question": "Refer to Mass & Balance Appendix, figure MB-004\n\nAn aeroplane is carrying a traffic load of 10320 kg\nComplete the necessary sections of the attached graph and determine which of the answers given below represents the maximum increase in the traffic load",
+    "feedback": "1830 kg"
+  },
+  {
+    "question": "Refer to Mass & Balance Appendix, figure MB-002\n\nFrom the data given in the appendix and assuming a fuel index shift of - 5.7 from the ZFM loaded index, determine which of the following is the correct value (percentage MAC) for the position of the centre of gravity at Take Off Mass.",
+    "feedback": "18 %"
+  },
+  {
+    "question": "According to the Aircraft Flight Manual, the Maximum Structural Mass of your aircraft is 5300 lb for both take-off and landing, which may be increased by 50 lb for taxiing. It is a hot day and the performance charts restrict the Maximum All Up Mass (MAUM) to 5100 lb. What is the regulated landing mass?",
+    "feedback": "5100 lb"
+  },
+  {
+    "question": "An aircraft may be weighed",
+    "feedback": "in an enclosed, non-air conditioned, hangar."
+  },
+  {
+    "question": "Prior to departure the medium range twin jet aeroplane is loaded with maximum fuel of 20100 litres at a fuel density (specific gravity) of 0.78.  Using the following data -  Performance limited take-off mass 67200 kg Performance limited landing mass 54200 kg Dry Operating Mass 34930 kg Taxi fuel 250 kg Trip fuel 9250 kg Contingency and holding fuel 850 kg Alternate fuel 700 kg The maximum permissible traffic load is",
+    "feedback": "13090 kg."
+  },
+  {
+    "question": "(For this Question use Loading Manual MEP1)\nWith respect to a multi-engine piston powered aeroplane, determine the CG location at take off in the following conditions:\nBasic empty mass: 3 210 lbs.\nBasic arm 88.5 Inch\nOne pilot: 160 lbs.\nFront seat passenger : 200 lbs.\nCentre seat passengers: 290 lbs. (total)\nOne passenger rear seat: 110 lbs.\nBaggage in zone 1: 100 lbs.\nBaggage in zone 4: 50 lbs.\nZero Fuel Mass: 4120 lbs.\nMoment at Zero Fuel Mass: 377751 lbs.In\nBlock fuel: 100 US Gal.\nTrip fuel: 55 US Gal.\nFuel for start up and taxi (included in block fuel):  3 US Gal.\nFuel density: 6 lbs./US Gal.",
+    "feedback": "91.92 inches aft of datum"
+  },
+  {
+    "question": "During a violent avoidance manoeuvre, a light twin aircraft, certified to FAR 23 requirements was subjected to an instantaneous load factor of 4.2. The Flight Manual specifies that the aircraft is certified in the normal category for a load factor of -1.9 to +3.8.\nConsidering the certification requirements and taking into account that the manufacturer of the twin did not include, during its conception, a supplementary margin in the flight envelope, it might be possible to observe;",
+    "feedback": "a permanent deformation of the structure"
+  },
+  {
+    "question": "A loaded aircraft has its Centre of Gravity (CG) 58 inches forward of the datum, and its mass is 2906 lb. If a last minute load of 182 lb is added 23 inches aft of the datum, what is the new position of the CG?",
+    "feedback": "53.23 inches forward of the datum"
+  },
+  {
+    "question": "An aeroplane with a two wheel nose gear and four main wheels rests on the ground with a single nose wheel load of 500 kg and a single main wheel load of 6000 kg. The distance between the nose wheels and the main wheels is 10 metres. How far is the centre of gravity in front of the main wheels?",
+    "feedback": "40 cm"
+  },
+  {
+    "question": "While making mass and balance calculation for a particular aeroplane, the term 'Basic Empty Mass' applies to the sum of airframe, engine(s), fixed ballast plus",
+    "feedback": "unusable fuel and full operating fluids."
+  },
+  {
+    "question": "The maximum zero fuel mass is a mass limitation for the:",
+    "feedback": "strength of the wing root"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1)\n\nMaximum allowed take-off mass limit: 37 200kg\nDry operating mass: 21 600 kg\nTake-off fuel: 8 500 kg\nPassengers on board: male 33, female 32, children 5\nBaggages: 880 kg\n\nThe company uses the standard passenger mass systems allowed by regulations. The flight is not a holiday charter.\nIn these conditions, the maximum cargo that may be loaded is",
+    "feedback": "585 kg"
+  },
+  {
+    "question": "If nose wheel moves aft during gear retraction, how will this movement affect the location of the centre of gravity (cg) on the aeroplane?",
+    "feedback": "It will cause the cg to move aft."
+  },
+  {
+    "question": "Refer to the load sheet of a commercial Air Transport Aeroplane.\nWhich of the following statements is correct concerning the limit masses in the Section 3 of this load sheet?",
+    "feedback": "The actual ZFM, TOM and LM must be lower or equal to the respective limit mass"
+  },
+  {
+    "question": "The actual 'Zero Fuel Mass' is equal to the:",
+    "feedback": "Dry Operating Mass plus the traffic load."
+  },
+  {
+    "question": "Considering only structural limitations, on very short legs with minimum take-off fuel, the traffic load is normally limited by:",
+    "feedback": "Maximum zero fuel mass."
+  },
+  {
+    "question": "The maximum load per running metre of an aeroplane is 350 kg/m. The width of the floor area is 2 metres. The floor strength limitation is 300 kg per square metre. Which one of the following crates (length x width x height) can be loaded directly on the floor?",
+    "feedback": "A load of 400 kg in a crate with dimensions 1.2 m x 1.2 m x 1.2 m."
+  },
+  {
+    "question": "Refer to Mass & Balance Appendix, figure MB-003\n\nUsing the data given in the Load & Trim sheet, determine which of the following gives the correct values for the Zero Fuel Mass and position of the centre of gravity (% MAC) at that mass.",
+    "feedback": "46130 Kg and  17,8%"
+  },
+  {
+    "question": "The zero fuel mass of an aeroplane is always:",
+    "feedback": "The take-off mass minus the take-off fuel mass."
+  },
+  {
+    "question": "Determine the Landing Mass for the following single engine aeroplane.  Given: Standard Empty Mass :1764 lbs  Optional Equipment : 35 lbs Pilot + Front seat passenger : 300 lbs Cargo Mass : 350 lbs Ramp Fuel = Block Fuel : 60 Gal. Trip Fuel : 35 Gal. Fuel density: 6 lbs/Gal.",
+    "feedback": "2599 lbs"
+  },
+  {
+    "question": "Determine the Dry Operating Index (DOI) of the aircraft, given:\nBEM: 3208 kgCG at BEM: 129.7 inches aft of datum2 crew members: 160 kgCrew seats: 47.5 inches aft of datum\nDOI= (mass (kg) x CG (inches) / 5000) -30",
+    "feedback": "54.74"
+  },
+  {
+    "question": "Which of the following statements is accurate when comparing the attributes of pallets with those of containers? Pallets ....",
+    "feedback": "are more suitable than containers for carrying oversized cargo items"
+  },
+  {
+    "question": "(For this question use Loading Manual MRJT 1 Figure 4.9) For the forward cargo compartment (Cargo Hold 1), area between balance arms (BA) 286 in and 343 in, determine which of the 4 boxes may be loaded:",
+    "feedback": "Box Z: 8.45 kg/inch and 67 kg per ft2"
+  },
+  {
+    "question": "The datum used for balance calculations is:",
+    "feedback": "chosen on the longitudinal axis of the aeroplane, but not necessarily between the nose and the tail of the aircraft"
+  },
+  {
+    "question": "A revenue flight is planned for the transport aeroplane. Take-off mass is not airfield limited. The following data applies:\nDry Operating Mass        34930 kg\nPerformance limited landing mass            55000 kg\nFuel on board at ramp-\nTaxi fuel            350 kg\nTrip fuel                  9730 kg\nContingency and final reserve fuel           1200 kg\nAlternate fuel            1600 kg\nPassengers on board                 130\nStandard mass for each passenger       84 kg\nBaggage per passenger                 14 kg\nTraffic load       Maximum possible\n\nUse the loading manual provided and the above data. Determine the maximum cargo load that may be carried without exceeding the limiting aeroplane landing mass.",
+    "feedback": "4530 kg."
+  },
+  {
+    "question": "For the purpose of completing the Mass and Balance documentation, the Operating Mass is considered to be Dry Operating Mass plus",
+    "feedback": "Take-off Fuel Mass."
+  },
+  {
+    "question": "Mass for individual passengers (to be carried on an aeroplane) may be determined from a verbal statement by or on behalf of the passengers if the number of",
+    "feedback": "passenger seats available is less than 10."
+  },
+  {
+    "question": "On an aeroplane without central fuel tank, the maximum Zero Fuel Mass is related to:",
+    "feedback": "The bending moment at the wing root."
+  },
+  {
+    "question": "Fuel loaded onto an aeroplane is 15400 kg but is erroneously entered into the load and trim sheet as 14500 kg.  This error is not detected by the flight crew but they will notice that",
+    "feedback": "speed at un-stick will be higher than expected"
+  },
+  {
+    "question": "In relation to an aeroplane the Dry Operating Mass is the total mass of the aeroplane ready for a specific type of operation but excluding",
+    "feedback": "usable fuel and traffic load."
+  },
+  {
+    "question": "Refer to the M&B Appendix, figures MB-012, MB-013, MB-017\n\nKnowing that:\n. Dry operating mass: 110 000 kg\n. Basic index: 119.1\n. Number of passengers: 335 distributed as shown in the appendix (75 kg per PAX)\n. Cargo load + luggage: 9 500 kg distributed as shown in the appendix\n. Fuel: 40 000 kg\nStages (1) to (7) and (11) having already been calculated, the centre of gravity in % MAC (Mean Aerodynamic Cord) at take-off is located at:",
+    "feedback": "24.5 %"
+  },
+  {
+    "question": "For a particular aeroplane, the structural maximum mass without any fuel on board, other than unusable quantities, is :",
+    "feedback": "a fixed value which is stated in the Aeroplane Operating Manual."
+  },
+  {
+    "question": "An aeroplane, which is scheduled to fly an oceanic sector, is due to depart from a high altitude airport in the tropics at 1400 local time. The airport has an exceptionally long runway. Which of the following is most likely to be the limiting factor(s) in determining the take - off mass ?",
+    "feedback": "altitude and temperature of the departure airfield."
+  },
+  {
+    "question": "Assuming gross mass, altitude and airspeed remain unchanged, movement of the centre of gravity from the forward to the aft limit will cause:",
+    "feedback": "increased cruise range"
+  },
+  {
+    "question": "Given:\nTake-off mass of an aircraft 8470 kg\nTotal fuel on board 1600 kg including 450 kg reserve fuel and 29 kg of unusable fuel\nTraffic load 770 kg\n\nWhat is the Zero Fuel Mass?",
+    "feedback": "6899 kg"
+  },
+  {
+    "question": "'Standard Mass' as used in the computation of passenger load establish the mass of a child as",
+    "feedback": "35 kg irrespective of age provided they occupy a seat."
+  },
+  {
+    "question": "Refer to the data so solve this task.\nAssume that 12 inches equals 1 foot.\nThe maximum mass that can be loaded on a pallet measuring 55 inches by 40 inches in the aft section of the forward cargo compartment (station 343 to 500) is:",
+    "feedback": "721 kg"
+  }
+]
