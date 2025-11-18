@@ -4,19 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>JSON Search Engine (Protected)</title>
-
   <style>
-    body {
+body.locked > *:not(#passwordScreen) {
+      display: none;
+    }
+body {
       font-family: Arial, sans-serif;
       max-width: 600px;
       margin: 2rem auto;
       padding: 0 1rem;
       background: #f0f2f5;
       color: #333;
-      display: none; /* hidden until password OK */
     }
-
-    #passwordScreen {
+#passwordScreen {
       position: fixed;
       inset: 0;
       background: #f0f2f5;
@@ -27,8 +27,7 @@
       gap: 12px;
       font-family: Arial, sans-serif;
     }
-
-    #passwordInput {
+#passwordInput {
       padding: 10px;
       font-size: 1.1rem;
       border: 2px solid #ccc;
@@ -36,12 +35,10 @@
       width: 240px;
       outline: none;
     }
-
-    #passwordInput:focus {
+#passwordInput:focus {
       border-color: #4a90e2;
     }
-
-    #passwordBtn {
+#passwordBtn {
       padding: 10px 20px;
       font-size: 1.1rem;
       background: #4a90e2;
@@ -50,13 +47,11 @@
       border-radius: 6px;
       cursor: pointer;
     }
-
-    h1 {
+h1 {
       text-align: center;
       margin-bottom: 1.5rem;
     }
-
-    input#search {
+input#search {
       width: 100%;
       padding: 12px;
       font-size: 1.2rem;
@@ -66,15 +61,13 @@
       transition: border-color 0.3s;
       background: white;
     }
-    input#search:focus {
+input#search:focus {
       border-color: #4a90e2;
     }
-
-    #results {
+#results {
       margin-top: 2rem;
     }
-
-    .result {
+.result {
       background: white;
       padding: 15px;
       margin-bottom: 1rem;
@@ -83,57 +76,39 @@
       cursor: pointer;
       transition: background-color 0.2s;
     }
-    .result:hover {
+.result:hover {
       background-color: #eaf2ff;
     }
-
-    .source {
+.source {
       font-size: 0.85rem;
       color: #777;
       margin-top: 8px;
       font-style: italic;
     }
-  </style>
+</style>
 </head>
-
-<body>
-
+<body class="locked">
   <div id="passwordScreen">
     <h2>Enter Password</h2>
     <input id="passwordInput" type="password" placeholder="Password" />
     <button id="passwordBtn">Unlock</button>
     <div id="passError" style="color:red; display:none;">Incorrect password</div>
   </div>
-
   <h1>JSON Search Engine</h1>
   <input type="text" id="search" placeholder="Start typing..." autofocus />
   <div id="results"></div>
-
   <script>
-    
-    const PASSWORD_HASH = "bd7d761a4f999f40a8801b5b08355cf74ccac4b740803f0aa606c31ba541cf3d";
-
-    async function sha256(str) {
-      const buf = new TextEncoder().encode(str);
-      const hash = await crypto.subtle.digest("SHA-256", buf);
-      return Array.from(new Uint8Array(hash))
-        .map(b => b.toString(16).padStart(2, "0"))
-        .join("");
-    }
-
-    document.getElementById("passwordBtn").onclick = async () => {
-      const input = document.getElementById("passwordInput").value;
-      const hashed = await sha256(input);
-
-      if (hashed === PASSWORD_HASH) {
-        document.getElementById("passwordScreen").style.display = "none";
-        document.body.style.display = "block";
-      } else {
-        document.getElementById("passError").style.display = "block";
-      }
-    };
-  </script>
-
+const PASSWORD = "HB1233";
+document.getElementById("passwordBtn").onclick = () => {
+  const input = document.getElementById("passwordInput").value;
+  if (input === PASSWORD) {
+    document.body.classList.remove("locked");
+    document.getElementById("passwordScreen").style.display = "none";
+  } else {
+    document.getElementById("passError").style.display = "block";
+  }
+};
+</script>
   <script src="script.js"></script>
 </body>
 </html>
