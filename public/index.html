@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>JSON Search Engine</title>
+  <title>JSON Search Engine (Protected)</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,6 +13,42 @@
       padding: 0 1rem;
       background: #f0f2f5;
       color: #333;
+      display: none; /* hidden until password OK */
+    }
+
+    #passwordScreen {
+      position: fixed;
+      inset: 0;
+      background: #f0f2f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      font-family: Arial, sans-serif;
+    }
+
+    #passwordInput {
+      padding: 10px;
+      font-size: 1.1rem;
+      border: 2px solid #ccc;
+      border-radius: 6px;
+      width: 240px;
+      outline: none;
+    }
+
+    #passwordInput:focus {
+      border-color: #4a90e2;
+    }
+
+    #passwordBtn {
+      padding: 10px 20px;
+      font-size: 1.1rem;
+      background: #4a90e2;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
     }
 
     h1 {
@@ -58,9 +95,44 @@
     }
   </style>
 </head>
+
 <body>
+
+  <div id="passwordScreen">
+    <h2>Enter Password</h2>
+    <input id="passwordInput" type="password" placeholder="Password" />
+    <button id="passwordBtn">Unlock</button>
+    <div id="passError" style="color:red; display:none;">Incorrect password</div>
+  </div>
+
+  <h1>JSON Search Engine</h1>
   <input type="text" id="search" placeholder="Start typing..." autofocus />
   <div id="results"></div>
+
+  <script>
+    
+    const PASSWORD_HASH = "bd7d761a4f999f40a8801b5b08355cf74ccac4b740803f0aa606c31ba541cf3d";
+
+    async function sha256(str) {
+      const buf = new TextEncoder().encode(str);
+      const hash = await crypto.subtle.digest("SHA-256", buf);
+      return Array.from(new Uint8Array(hash))
+        .map(b => b.toString(16).padStart(2, "0"))
+        .join("");
+    }
+
+    document.getElementById("passwordBtn").onclick = async () => {
+      const input = document.getElementById("passwordInput").value;
+      const hashed = await sha256(input);
+
+      if (hashed === PASSWORD_HASH) {
+        document.getElementById("passwordScreen").style.display = "none";
+        document.body.style.display = "block";
+      } else {
+        document.getElementById("passError").style.display = "block";
+      }
+    };
+  </script>
 
   <script src="script.js"></script>
 </body>
