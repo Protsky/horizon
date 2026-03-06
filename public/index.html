@@ -1,114 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>JSON Search Engine (Protected)</title>
-  <style>
-body.locked > *:not(#passwordScreen) {
-      display: none;
-    }
-body {
-      font-family: Arial, sans-serif;
-      max-width: 600px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      background: #f0f2f5;
-      color: #333;
-    }
-#passwordScreen {
-      position: fixed;
-      inset: 0;
-      background: #f0f2f5;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      font-family: Arial, sans-serif;
-    }
-#passwordInput {
-      padding: 10px;
-      font-size: 1.1rem;
-      border: 2px solid #ccc;
-      border-radius: 6px;
-      width: 240px;
-      outline: none;
-    }
-#passwordInput:focus {
-      border-color: #4a90e2;
-    }
-#passwordBtn {
-      padding: 10px 20px;
-      font-size: 1.1rem;
-      background: #4a90e2;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-h1 {
-      text-align: center;
-      margin-bottom: 1.5rem;
-    }
-input#search {
-      width: 100%;
-      padding: 12px;
-      font-size: 1.2rem;
-      border: 2px solid #ccc;
-      border-radius: 8px;
-      outline: none;
-      transition: border-color 0.3s;
-      background: white;
-    }
-input#search:focus {
-      border-color: #4a90e2;
-    }
-#results {
-      margin-top: 2rem;
-    }
-.result {
-      background: white;
-      padding: 15px;
-      margin-bottom: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      cursor: pointer;
-      transition: background-color 0.2s;
-    }
-.result:hover {
-      background-color: #eaf2ff;
-    }
-.source {
-      font-size: 0.85rem;
-      color: #777;
-      margin-top: 8px;
-      font-style: italic;
-    }
-</style>
-</head>
-<body class="locked">
-  <div id="passwordScreen">
-    <h2>Enter Password</h2>
-    <input id="passwordInput" type="password" placeholder="Password" />
-    <button id="passwordBtn">Unlock</button>
-    <div id="passError" style="color:red; display:none;">Incorrect password</div>
-  </div>
-  <h1>JSON Search Engine</h1>
-  <input type="text" id="search" placeholder="Start typing..." autofocus />
-  <div id="results"></div>
-  <script>
-const PASSWORD = "HB1233";
-document.getElementById("passwordBtn").onclick = () => {
-  const input = document.getElementById("passwordInput").value;
-  if (input === PASSWORD) {
-    document.body.classList.remove("locked");
-    document.getElementById("passwordScreen").style.display = "none";
-  } else {
-    document.getElementById("passError").style.display = "block";
-  }
-};
-</script>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a8ea5" />
+    <title>Tropobank | Home</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="logo-tropobank.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+    <link rel="apple-touch-icon" href="icon-180.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Tropobank" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Literata:opsz,wght@7..72,500;7..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+
+    <header class="site-header">
+      <a class="brand" href="app">
+        <img class="brand-mark" src="logo-tropobank.svg" alt="Tropobank logo" />
+        <span>Tropobank</span>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        data-menu-toggle
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        Menu
+      </button>
+      <nav class="main-menu">
+        <a class="menu-link active" href="app">Home</a>
+        <a class="menu-link" href="search">Database</a>
+        <a class="menu-link" href="support">Support</a>
+        <a class="menu-link" href="settings">Settings</a>
+        <a id="menuAdminLink" class="menu-link hidden" href="admin">Admin</a>
+      </nav>
+      <div class="header-actions">
+        <button id="openAuthBtn" class="ghost-btn hidden" type="button">Sign in</button>
+        <button id="goDatabaseBtn" class="solid-btn hidden" type="button">Open database</button>
+        <button id="logoutBtn" class="ghost-btn hidden" type="button">Logout</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="panel hero">
+        <div>
+          <p class="kicker">THEORY INTELLIGENCE</p>
+          <h1>Find ATPL answers in seconds with a focused study interface.</h1>
+          <p>
+            Tropobank is your question search engine for theory prep: account access, timed
+            subscription, instant ranked results, and a card-verified free trial after email verification.
+          </p>
+          <article class="trial-spotlight">
+            <div class="trial-spotlight-head">
+              <span class="trial-tag">FREE TRIAL</span>
+              <strong><span data-free-trial-days>1</span> day full access</strong>
+            </div>
+            <p>Card required at activation. Then CHF 10 every 14 days, cancel anytime.</p>
+            <div class="trial-points">
+              <span>Real database access</span>
+              <span>No immediate charge during trial period</span>
+            </div>
+          </article>
+          <div class="hero-actions">
+            <button id="startNowBtn" class="solid-btn" type="button">Start free trial</button>
+            <a class="link-btn" href="faq">FAQ</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <article class="visual-card">
+            <h3>Database index</h3>
+            <p>Full-text search across questions and feedback with immediate ranking.</p>
+            <div class="visual-bars"><span></span><span></span><span></span></div>
+          </article>
+          <article class="visual-card alt">
+            <h3>Fast checkout</h3>
+            <p>CHF 10 every 14 days via Stripe. Cancel anytime from Settings.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel features">
+        <article class="feature-card">
+          <h3>One active session</h3>
+          <p>No simultaneous logins: one valid session per account.</p>
+        </article>
+        <article class="feature-card">
+          <h3><span data-free-trial-days>1</span>-day free trial</h3>
+          <p>After trial: CHF 10 every 14 days, and you can cancel anytime.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Built-in support</h3>
+          <p>Users can send support requests from Settings. Admin can reply and resolve.</p>
+        </article>
+      </section>
+
+      <section id="userPanel" class="panel user-panel hidden">
+        <div class="user-grid">
+          <article class="card">
+            <h3 class="section-title">Account</h3>
+            <p><strong id="accountSummary">-</strong></p>
+            <p id="accessSummary">-</p>
+            <div class="hero-actions">
+              <button id="openSettingsBtn" class="ghost-btn" type="button">Open settings</button>
+              <button id="openDatabaseBtn" class="solid-btn" type="button">Open database</button>
+            </div>
+          </article>
+
+          <article class="license-card" id="licenseCard">
+            <div>
+              <h3 id="licenseTitle">License inactive</h3>
+              <p id="licenseDescription"></p>
+            </div>
+            <button id="buyLicenseBtn" class="solid-btn" type="button">Start subscription</button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast hidden"></div>
+    <script src="nav.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

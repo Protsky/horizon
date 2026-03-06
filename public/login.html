@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a8ea5" />
+    <title>Tropobank | Login</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="logo-tropobank.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+    <link rel="apple-touch-icon" href="icon-180.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Tropobank" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Literata:opsz,wght@7..72,500;7..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+
+    <header class="site-header">
+      <a class="brand" href="app">
+        <img class="brand-mark" src="logo-tropobank.svg" alt="Tropobank logo" />
+        <span>Tropobank</span>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        data-menu-toggle
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        Menu
+      </button>
+      <nav class="main-menu">
+        <a class="menu-link" href="app">Home</a>
+        <a class="menu-link" href="search">Database</a>
+        <a class="menu-link" href="support">Support</a>
+        <a class="menu-link" href="settings">Settings</a>
+        <a id="menuAdminLink" class="menu-link hidden" href="admin">Admin</a>
+      </nav>
+      <div class="header-actions"></div>
+    </header>
+
+    <main class="page-shell">
+      <section class="panel auth-panel">
+        <div id="loginNotice" class="notice-banner hidden"></div>
+        <div class="auth-switch">
+          <button id="switchLoginBtn" class="switch-btn active" type="button">Login</button>
+          <button id="switchRegisterBtn" class="switch-btn" type="button">Register</button>
+        </div>
+
+        <form id="loginForm" class="form">
+          <h2>Sign in</h2>
+          <label class="field-label" for="loginEmail">Email</label>
+          <input id="loginEmail" type="email" required autocomplete="email" />
+          <label class="field-label" for="loginPassword">Password</label>
+          <input id="loginPassword" type="password" required autocomplete="current-password" />
+          <button id="loginSubmitBtn" class="solid-btn" type="submit">Login</button>
+          <p id="loginInlineMessage" class="form-feedback hidden" role="status"></p>
+          <a class="text-link" href="forgot-password">Forgot password?</a>
+        </form>
+
+        <form id="registerForm" class="form hidden">
+          <h2>Create account</h2>
+          <p class="meta-text">
+            Verify email, add card, start <span data-free-trial-days>1</span>-day trial.
+            Then CHF 10 every 14 days, cancel anytime.
+          </p>
+          <label class="field-label" for="registerName">Name</label>
+          <input id="registerName" type="text" required autocomplete="name" />
+          <label class="field-label" for="registerEmail">Email</label>
+          <input id="registerEmail" type="email" required autocomplete="email" />
+          <label class="field-label" for="registerPassword">Password</label>
+          <input id="registerPassword" type="password" minlength="8" required autocomplete="new-password" />
+          <button class="solid-btn" type="submit">Register</button>
+          <div class="verify-help">
+            <span>Already registered but not verified?</span>
+            <button id="resendVerificationBtn" class="text-action-btn" type="button">Resend verification email</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <div id="loginToast" class="toast hidden"></div>
+    <script src="nav.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a8ea5" />
+    <title>Tropobank | Admin</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="logo-tropobank.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+    <link rel="apple-touch-icon" href="icon-180.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Tropobank" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Literata:opsz,wght@7..72,500;7..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+
+    <header class="site-header">
+      <a class="brand" href="app">
+        <img class="brand-mark" src="logo-tropobank.svg" alt="Tropobank logo" />
+        <span>Tropobank</span>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        data-menu-toggle
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        Menu
+      </button>
+      <nav class="main-menu">
+        <a class="menu-link" href="app">Home</a>
+        <a class="menu-link" href="search">Database</a>
+        <a class="menu-link" href="support">Support</a>
+        <a class="menu-link" href="settings">Settings</a>
+        <a class="menu-link active" href="admin">Admin</a>
+      </nav>
+      <div class="header-actions">
+        <button id="adminLogoutBtn" class="ghost-btn" type="button">Logout</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="panel admin-page">
+        <div class="dashboard-head">
+          <h2>Admin control panel</h2>
+          <p id="adminAccountSummary"></p>
+        </div>
+
+        <div class="hero-actions">
+          <button id="adminRefreshBtn" class="ghost-btn" type="button">Refresh users</button>
+          <button id="adminRefreshSupportBtn" class="ghost-btn" type="button">Refresh support</button>
+          <small id="adminMeta" class="meta-text"></small>
+        </div>
+
+        <article class="card admin-stats-card">
+          <div class="card-head">
+            <h3 class="section-title">Platform overview</h3>
+          </div>
+          <div class="admin-stats-grid">
+            <div class="admin-stat-item">
+              <span class="admin-stat-label">Total users</span>
+              <strong id="adminStatsUsers" class="admin-stat-value">0</strong>
+            </div>
+            <div class="admin-stat-item">
+              <span class="admin-stat-label">Verified emails</span>
+              <strong id="adminStatsVerified" class="admin-stat-value">0</strong>
+            </div>
+            <div class="admin-stat-item">
+              <span class="admin-stat-label">Active sessions</span>
+              <strong id="adminStatsActive" class="admin-stat-value">0</strong>
+            </div>
+            <div class="admin-stat-item">
+              <span class="admin-stat-label">Active licenses</span>
+              <strong id="adminStatsLicensed" class="admin-stat-value">0</strong>
+            </div>
+            <div class="admin-stat-item">
+              <span class="admin-stat-label">Subscriptions</span>
+              <strong id="adminStatsSubscriptions" class="admin-stat-value">0</strong>
+            </div>
+            <div class="admin-stat-item">
+              <span class="admin-stat-label">Trial active now</span>
+              <strong id="adminStatsTrialActive" class="admin-stat-value">0</strong>
+            </div>
+            <div class="admin-stat-item">
+              <span class="admin-stat-label">Renewal canceled</span>
+              <strong id="adminStatsRenewalOff" class="admin-stat-value">0</strong>
+            </div>
+            <div class="admin-stat-item">
+              <span class="admin-stat-label">Open support</span>
+              <strong id="adminStatsSupportOpen" class="admin-stat-value">0</strong>
+            </div>
+            <div class="admin-stat-item">
+              <span class="admin-stat-label">Newsletters</span>
+              <strong id="adminStatsNewsletters" class="admin-stat-value">0</strong>
+            </div>
+            <div class="admin-stat-item">
+              <span class="admin-stat-label">Coupons active</span>
+              <strong id="adminStatsCoupons" class="admin-stat-value">0</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3 class="section-title">Write Newsletter</h3>
+            <span id="newsletterMeta" class="meta-text"></span>
+          </div>
+          <form id="newsletterForm" class="form">
+            <label class="field-label" for="newsletterTitle">Title</label>
+            <input id="newsletterTitle" type="text" required maxlength="160" />
+            <label class="field-label" for="newsletterMessage">Message</label>
+            <textarea id="newsletterMessage" rows="4" required maxlength="4000"></textarea>
+            <button id="newsletterSubmitBtn" class="solid-btn" type="submit">Publish news</button>
+          </form>
+          <div id="newsletterList" class="support-list"></div>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3 class="section-title">Coupon tokens</h3>
+            <span id="couponMeta" class="meta-text"></span>
+          </div>
+          <form id="couponForm" class="form">
+            <label class="field-label" for="couponCode">Code</label>
+            <input id="couponCode" type="text" required maxlength="40" placeholder="FREE14BONUS" />
+            <label class="field-label" for="couponDays">Bonus days</label>
+            <input id="couponDays" type="number" min="1" max="365" step="1" value="14" required />
+            <label class="field-label" for="couponMaxRedemptions">Max redemptions (0 = unlimited)</label>
+            <input id="couponMaxRedemptions" type="number" min="0" max="50000" step="1" value="1" required />
+            <label class="field-label" for="couponExpiresAt">Expires at (optional)</label>
+            <input id="couponExpiresAt" type="datetime-local" />
+            <label class="field-label" for="couponNote">Admin note (optional)</label>
+            <input id="couponNote" type="text" maxlength="160" />
+            <button id="couponSubmitBtn" class="solid-btn" type="submit">Create coupon</button>
+          </form>
+          <div id="couponList" class="support-list"></div>
+        </article>
+
+        <div class="admin-table-wrap">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>User</th>
+                <th>Role</th>
+                <th>License</th>
+                <th>Session</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="adminUsersBody"></tbody>
+          </table>
+        </div>
+
+        <article class="card support-admin-card">
+          <div class="card-head">
+            <h3 class="section-title">Support requests</h3>
+            <span id="supportMeta" class="meta-text"></span>
+          </div>
+          <div id="adminSupportList" class="support-list admin-support-list"></div>
+        </article>
+      </section>
+    </main>
+
+    <div id="adminToast" class="toast hidden"></div>
+    <script src="nav.js"></script>
+    <script src="admin.js"></script>
+  </body>
+</html>
